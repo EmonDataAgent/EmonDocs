@@ -1,0 +1,38 @@
+<!-- RENDERED
+brand: native
+brand_display_name: FineReport
+locale: ja-JP
+rendered_at: 2026-06-03T14:51:59Z
+source_master: data/dora/locale/ja-JP/pages/doc-view-41.md
+-->
+---
+page_id: "doc-view-41"
+title: "レポート生成関連スキルの比較"
+locale: "ja-JP"
+sourced_from_kus:
+  - "dora.skill-orchestration.report-generation.comparison"
+generated_at: "2026-06-03"
+---
+
+## 1. スキルの比較
+
+レポート生成には、以下の種類のスキルが含まれます。
+
+| スキル名 | 概要 | 典型的な利用シーン |
+| --- | --- | --- |
+| HTMLレポート | テキスト内容や分析結果に基づいて、プレビュー可能なHTMLレポートを動的に生成します。 | AIが内容の方向性を自律的に探索できる、フォーマット制限のないオープンなレポート生成。 |
+| テンプレートからHTMLレポートを作成 | アップロードしたHTMLテンプレートと構造化データソース(Excel/CSV)に基づいて、カスタマイズされたHTMLレポートを生成します。 | 固定フォーマットの制約があり、AIが厳密にテンプレートに従って出力する必要があるレポート生成。 |
+| PPTレポート | ドキュメント、アウトライン、テーマなどの入力内容に基づいて、構造化されたPPTを生成します。 | 営業用や業務報告用のPPT資料の迅速な生成。 |
+| [PPTXテンプレート埋め込み](https://help.fanruan.com/finereport/doc-view-50.html) | ユーザが事前に処理したPPTテンプレートをアップロードし、AIプロンプトの設定とダッシュボードデータの紐付けを行うことで、標準化されたPPTレポートを自動生成します。 | 固定のPPTフォーマットがあり、標準化されたPPTレポートを出力するシーン。 |
+| [AI固定レポート](https://help.fanruan.com/finereport/doc-view-21.html) | 事前に設定したレポートのアウトラインと関連データソースに基づいて、データを自動的に統合し、標準化された分析レポートを生成します。 | - 一般的な要約、要因分析、比較などの標準化された分析レポート。<br>- ローカルテンプレートに基づく固定レイアウトのレポート生成。 |
+
+## 2. 設定手順
+
+1. Data Agentプラットフォームで、レポート生成用のエージェントを準備します。
+2. 「エージェント設定ページ > スキル」にて、利用シーンのニーズに合わせて「レポート生成」カテゴリから適切なスキルを追加します。
+3. 「AI固定レポート」または「PPTXテンプレート埋め込み」スキルを追加した場合は、スキルの詳細な設定を行います。
+
+詳細については、[AI固定レポート](https://help.fanruan.com/finereport/doc-view-21.html)および[PPTXテンプレート埋め込み](https://help.fanruan.com/finereport/doc-view-50.html)をご参照ください。
+
+
+<!-- AUTHOR_NOTE: "Data Agent" 未在 tokenization-rules 提及，保留原樣。 -->

@@ -10,10 +10,10 @@ sourced_from_kus:
 generated_at: 2026-06-03
 ---
 <!-- RENDERED
-brand: native
-brand_display_name: FineReport
+brand: emon
+brand_display_name: Emon
 locale: zh-TW
-rendered_at: 2026-06-07T08:31:49Z
+rendered_at: 2026-06-07T09:25:29Z
 source_master: data/dora/locale/zh-TW/pages/doc-view-13.md
 -->
 
@@ -21,13 +21,13 @@ source_master: data/dora/locale/zh-TW/pages/doc-view-13.md
 
 ## 1. 簡介
 
-工作台，即 Dora 平台的首頁，可讓員工快速選擇合適的 Agent 以處理各種數據分析。
+工作台，即 Emon 平台的首頁，可讓員工快速選擇合適的 Agent 以處理各種數據分析。
 
 主要使用場景包含：
 - 查看使用者可以選擇『銷售問數 Agent』、『報告分析 Agent』等輔助完成工作。
 - 開發使用者或管理員可以創建各種類型的 Agent，發布至工作台後提供給員工使用。
 
-以向 Dora 直接發送消息為例，效果如下所示：
+以向 Emon 直接發送消息為例，效果如下所示：
 
 [VISUAL_PENDING:dora.workbench.overview:0]
 <!--
@@ -35,13 +35,13 @@ role: decorative
 locale_sensitivity: unknown
 brand_sensitivity: unknown
 production_method: reuse_original
-reason: "展示向 Dora 發送消息的效果動畫。"
+reason: "展示向 Emon 發送消息的效果動畫。"
 suggested_ui_text_mapping: {}
 -->
 
 ## 2. 通用智慧體
 
-Dora 通用智慧體是 帆軟 Dora 平台內建的通用智慧體，整合了平台的全部技能。管理員可為 Dora 設定模型、定時任務與 IM 介接；查看使用者則可以在工作台直接與 Dora 進行對話。
+Emon 通用智慧體是 Emon Corp Emon 平台內建的通用智慧體，整合了平台的全部技能。管理員可為 Emon 設定模型、定時任務與 IM 介接；查看使用者則可以在工作台直接與 Emon 進行對話。
 
 [VISUAL_PENDING:dora.workbench.general_agent:0]
 <!--
@@ -49,7 +49,7 @@ role: screenshot
 locale_sensitivity: high
 brand_sensitivity: high
 production_method: retake
-reason: "展示工作台首頁的 Dora 通用智慧體介面，具備高在地化與品牌敏感度，需重新截圖。"
+reason: "展示工作台首頁的 Emon 通用智慧體介面，具備高在地化與品牌敏感度，需重新截圖。"
 suggested_ui_text_mapping: {}
 -->
 

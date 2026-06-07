@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: ja-JP
-rendered_at: 2026-06-03T14:51:59Z
-source_master: data/dora/locale/ja-JP/pages/doc-view-4.md
--->
 ---
 page_id: doc-view-4
 title: Agentの作成
@@ -16,6 +9,13 @@ sourced_from_kus:
   - dora.agent.creation.notes
 generated_at: 2026-06-03T14:47:18Z
 ---
+<!-- RENDERED
+brand: emon
+brand_display_name: Emon
+locale: ja-JP
+rendered_at: 2026-06-07T09:25:29Z
+source_master: data/dora/locale/ja-JP/pages/doc-view-4.md
+-->
 
 ## 1. 概要
 
@@ -54,11 +54,11 @@ Agentを公開する前に現在の設定ページを退出する場合は、デ
 Agentの設定が完了し、テストで問題がないことを確認したら、右上の「公開」ボタンをクリックし、以下の公開方法から選択して確定します。
 1. **ワークベンチ**：業務担当者が利用できるように、Agentをユーザーのワークベンチに公開します。
 2. **独立URL**：Agent専用の独立したURLリンクを生成し、外部に共有します。
-3. **FineBI プラットフォーム**：Agentを「FineBI プラットフォーム > ディレクトリ」配下の1つ以上のリソースに公開できます。ユーザーが該当するディレクトリリソースにアクセスした際、ページのサイドバーからAgentのセッションを迅速に開始できます。
+3. **OrangeBI プラットフォーム**：Agentを「OrangeBI プラットフォーム > ディレクトリ」配下の1つ以上のリソースに公開できます。ユーザーが該当するディレクトリリソースにアクセスした際、ページのサイドバーからAgentのセッションを迅速に開始できます。
 
 > **注意**：
 > - 未公開のAgentは「下書き」状態となり、管理者のみが閲覧および編集できます。
-> - FineBI プラットフォームへの公開方式では、1つのAgentを複数のディレクトリリソースに公開できますが、**1つのディレクトリリソースには1つのAgentのみを関連付けて公開することができます**。
+> - OrangeBI プラットフォームへの公開方式では、1つのAgentを複数のディレクトリリソースに公開できますが、**1つのディレクトリリソースには1つのAgentのみを関連付けて公開することができます**。
 
 ### 2.5 公開の取り消し
 

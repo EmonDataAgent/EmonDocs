@@ -8,10 +8,10 @@ sourced_from_kus:
 generated_at: "2026-06-03T22:47:19+08:00"
 ---
 <!-- RENDERED
-brand: native
-brand_display_name: FineReport
+brand: emon
+brand_display_name: Emon
 locale: zh-TW
-rendered_at: 2026-06-07T08:31:49Z
+rendered_at: 2026-06-07T09:25:29Z
 source_master: data/dora/locale/zh-TW/pages/doc-view-37.md
 -->
 
@@ -28,7 +28,7 @@ source_master: data/dora/locale/zh-TW/pages/doc-view-37.md
 
 ### 1.3 效果演示
 
-以發佈 Agent 至 FineBI 平台為例，可以實現儀表板檢索的效果。
+以發佈 Agent 至 OrangeBI 平台為例，可以實現儀表板檢索的效果。
 
 ## 2. 設定步驟
 
@@ -59,6 +59,6 @@ source_master: data/dora/locale/zh-TW/pages/doc-view-37.md
 | --- | --- | --- |
 | **工作台** | 在 Data Agent 平台以會話形式，對已綁定儀表板的數據進行提問與分析。 | Data Agent 平台內部使用者，日常查數與分析。 |
 | **獨立 URL** | 透過獨立連結存取 Agent，以會話形式進行提問與分析。 | 需向外部人員分享 Agent，且無需登入 Data Agent 平台的場景。 |
-| **FineBI 平台** | 在 FineBI「目錄」中，於 Agent 可見範圍內的儀表板頁面透過側邊欄喚起 Agent，直接提問分析。 | FineBI 使用者在瀏覽看板的過程中即時提問，無需切換頁面。 |
+| **OrangeBI 平台** | 在 OrangeBI「目錄」中，於 Agent 可見範圍內的儀表板頁面透過側邊欄喚起 Agent，直接提問分析。 | OrangeBI 使用者在瀏覽看板的過程中即時提問，無需切換頁面。 |
 
 <!-- 本頁已依品牌規則處理 2 條過濾項 -->

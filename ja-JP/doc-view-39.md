@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: ja-JP
-rendered_at: 2026-06-03T14:51:59Z
-source_master: data/dora/locale/ja-JP/pages/doc-view-39.md
--->
 ---
 page_id: doc-view-39
 title: 外接MCP
@@ -15,6 +8,13 @@ sourced_from_kus:
   - dora.open_integration.mcp_management.notes
 generated_at: "2026-06-03"
 ---
+<!-- RENDERED
+brand: emon
+brand_display_name: Emon
+locale: ja-JP
+rendered_at: 2026-06-07T09:25:29Z
+source_master: data/dora/locale/ja-JP/pages/doc-view-39.md
+-->
 
 # 外接MCP
 
@@ -50,8 +50,8 @@ MCPサービスの実際の状況に応じて、以下の設定項目を入力�
 2.  サービスを有効化すると、すべてのAgentに自動配信されます。無効化すると、Agentはそのサービスを呼び出せなくなるため、事前に影響範囲を評価する必要があります。
 3.  外部MCPサービスの実際のプロトコルに応じて、対応する通信方式を選択する必要があります。プロトコルが一致しない場合、接続に失敗します。
 4.  MCP名には全角文字を含めないことを推奨します。関連する全角文字の説明は説明（描述）に追加できます。
-5.  同種のMCPや、Doraの独自のスキルと重複する機能を追加することは推奨しません。誤作動や不正確な呼び出しの原因となるのを防ぐためです。
+5.  同種のMCPや、Emonの独自のスキルと重複する機能を追加することは推奨しません。誤作動や不正確な呼び出しの原因となるのを防ぐためです。
 6.  該当するMCPが見つからない場合は、以下の順序で確認できます。最初に通信方式が正しいか確認し、次にMCPの期限が切れていないか確認し、最後にURLアドレスが正しいか確認します。
-7.  MCPナレッジベースがFineBIユーザに基づく認証を必要とし、かつMCPサーバがリクエストヘッダからのユーザ名取得をサポートしている場合、「请求头 (JSON 对象)」に以下を設定できます。`{"fine_username": "${fine_username}"}`。
+7.  MCPナレッジベースがOrangeBIユーザに基づく認証を必要とし、かつMCPサーバがリクエストヘッダからのユーザ名取得をサポートしている場合、「请求头 (JSON 对象)」に以下を設定できます。`{"fine_username": "${fine_username}"}`。
 
 

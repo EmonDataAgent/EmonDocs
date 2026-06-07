@@ -1,6 +1,6 @@
 # Summary
 
-* [Dora 快速入門](README.md)
+* [Emon 快速入門](README.md)
 * [Agent 建立與模型配置](agent-management.md)
 * [技能編排指南](skill-orchestration.md)
 * [系統設定與權限管理](system-administration.md)

@@ -1,42 +1,42 @@
 ---
 page_id: doc-view-47
-title: "Dora大模型問題排查指南"
+title: "Emon大模型問題排查指南"
 locale: zh-TW
 sourced_from_kus:
   - dora.troubleshooting.large_model
 generated_at: 2026-06-03
 ---
 <!-- RENDERED
-brand: native
-brand_display_name: FineReport
+brand: emon
+brand_display_name: Emon
 locale: zh-TW
-rendered_at: 2026-06-07T08:31:49Z
+rendered_at: 2026-06-07T09:25:29Z
 source_master: data/dora/locale/zh-TW/pages/doc-view-47.md
 -->
 
-# Dora大模型問題排查指南
+# Emon大模型問題排查指南
 
-本文介紹 Dora 大模型相關連線與請求錯誤的排查方法。
+本文介紹 Emon 大模型相關連線與請求錯誤的排查方法。
 
 ## 1. 前置檢查
 
 在開始排查具體問題前，請確認以下事項：
 
-- **確認大模型規格**：大模型及其參數、併發能力需滿足[推薦大模型](https://help.fanruan.com/finereport/doc-view-26.html)的要求。
-- **確認連線測試完成**：請確保已完成[連線測試](https://help.fanruan.com/finereport/doc-view-22.html#6efaa47240586242)，包含：
-  - FineAI 插件與 FineBI 平台互通測試。
+- **確認大模型規格**：大模型及其參數、併發能力需滿足[推薦大模型](./doc-view-26.md)的要求。
+- **確認連線測試完成**：請確保已完成[連線測試](./doc-view-22.md#6efaa47240586242)，包含：
+  - FineAI 插件與 OrangeBI 平台互通測試。
   - 大模型連線測試。
 
 ## 2. 常見問題
 
 ### 2.1 連線測試失敗
 
-- **FineAI 插件與 FineBI 平台互通測試失敗**
+- **FineAI 插件與 OrangeBI 平台互通測試失敗**
   按 `F12` 開啟瀏覽器開發者工具，查看 `test` 請求回應中的 `error_message` 欄位。透過該欄位可判斷是 BI 連不上 FineAI，還是 FineAI 連不上 BI。
 - **大模型連線測試失敗**
   同樣透過 `F12` 查看請求回應中的 `error_message`，以定位具體原因。
 
-### 2.2 Dora 無法正常回應，請求超時或無返回
+### 2.2 Emon 無法正常回應，請求超時或無返回
 
 **原因：** 網路通訊問題。
 **排查步驟：**
@@ -46,7 +46,7 @@ source_master: data/dora/locale/zh-TW/pages/doc-view-47.md
 
 ### 2.3 第一個請求報錯，第二個請求正常
 
-**原因：** Dora 必須依賴 `tool_call`，而當前使用的大模型不支援。
+**原因：** Emon 必須依賴 `tool_call`，而當前使用的大模型不支援。
 **排查步驟：**
 使用兩條 curl 指令進行比對測試：
 - 第一條指令（帶 `tool_call`）：若大模型不支援則會報錯。

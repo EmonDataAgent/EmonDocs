@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: ja-JP
-rendered_at: 2026-06-03T14:51:59Z
-source_master: data/dora/locale/ja-JP/pages/doc-view-37.md
--->
 ---
 page_id: doc-view-37
 title: ダッシュボード検索
@@ -14,6 +7,13 @@ sourced_from_kus:
   - dora.dashboard_search.procedure.setup
 generated_at: "2026-06-03T22:47:19+08:00"
 ---
+<!-- RENDERED
+brand: emon
+brand_display_name: Emon
+locale: ja-JP
+rendered_at: 2026-06-07T09:25:29Z
+source_master: data/dora/locale/ja-JP/pages/doc-view-37.md
+-->
 
 ## 1. 概要
 
@@ -28,7 +28,7 @@ generated_at: "2026-06-03T22:47:19+08:00"
 
 ### 1.3 デモンストレーション
 
-Agent を FineBI プラットフォームに公開した場合を例として、ダッシュボード検索の効果を確認できます。
+Agent を OrangeBI プラットフォームに公開した場合を例として、ダッシュボード検索の効果を確認できます。
 
 ## 2. 設定手順
 
@@ -59,6 +59,6 @@ Agent を FineBI プラットフォームに公開した場合を例として、
 | --- | --- | --- |
 | **ワークベンチ** | Data Agent プラットフォーム上で、対話形式でバインドされたダッシュボードのデータに対して質問・分析を行います。 | Data Agent プラットフォームの内部ユーザーによる日常的なデータ照会と分析。 |
 | **独立 URL** | 独立したリンクを通じて Agent にアクセスし、対話形式で質問・分析を行います。 | Data Agent プラットフォームへのログイン不要で、外部の担当者に Agent を共有する必要がある場合。 |
-| **FineBI プラットフォーム** | FineBI の「ディレクトリ」にて、Agent の表示範囲内にあるダッシュボードページからサイドバー経由で Agent を呼び出し、直接質問・分析を行います。 | FineBI ユーザーがダッシュボードを閲覧中に、ページを切り替えることなく即座に質問したい場合。 |
+| **OrangeBI プラットフォーム** | OrangeBI の「ディレクトリ」にて、Agent の表示範囲内にあるダッシュボードページからサイドバー経由で Agent を呼び出し、直接質問・分析を行います。 | OrangeBI ユーザーがダッシュボードを閲覧中に、ページを切り替えることなく即座に質問したい場合。 |
 
 <!-- 本頁已依品牌規則處理 2 條過濾項 -->

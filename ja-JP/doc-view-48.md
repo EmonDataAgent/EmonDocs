@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: ja-JP
-rendered_at: 2026-06-03T14:51:59Z
-source_master: data/dora/locale/ja-JP/pages/doc-view-48.md
--->
 ---
 page_id: "doc-view-48"
 title: "よくある質問とトラブルシューティング"
@@ -14,6 +7,13 @@ sourced_from_kus:
   - "dora.troubleshooting.token-consumption"
 generated_at: "2026-06-03T22:47:20+08:00"
 ---
+<!-- RENDERED
+brand: emon
+brand_display_name: Emon
+locale: ja-JP
+rendered_at: 2026-06-07T09:25:29Z
+source_master: data/dora/locale/ja-JP/pages/doc-view-48.md
+-->
 
 ## 1. 最下層行データ制限
 
@@ -23,7 +23,7 @@ generated_at: "2026-06-03T22:47:20+08:00"
 
 **トラブルシューティング手順：**
 
-1. FineBIの「システム管理」>「BIパラメータ」>「データアクセス制限」を確認し、データアクセス量の制限値が低すぎないか確認します。
+1. OrangeBIの「システム管理」>「BIパラメータ」>「データアクセス制限」を確認し、データアクセス量の制限値が低すぎないか確認します。
 2. データアクセス量の制限値を引き上げます。
 
 ## 2. レポート類スキルのToken消費

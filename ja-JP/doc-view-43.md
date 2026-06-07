@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: ja-JP
-rendered_at: 2026-06-03T14:51:59Z
-source_master: data/dora/locale/ja-JP/pages/doc-view-43.md
--->
 ---
 page_id: doc-view-43
 title: すべてのユーザ
@@ -13,6 +6,13 @@ sourced_from_kus:
   - dora.user_management.all_users
 generated_at: "2026-06-03T22:47:19+08:00"
 ---
+<!-- RENDERED
+brand: emon
+brand_display_name: Emon
+locale: ja-JP
+rendered_at: 2026-06-07T09:25:29Z
+source_master: data/dora/locale/ja-JP/pages/doc-view-43.md
+-->
 
 ## 概要
 
@@ -32,7 +32,7 @@ generated_at: "2026-06-03T22:47:19+08:00"
 - 任意フィールド：メールアドレス、電話番号。
 
 > [!NOTE]
-> Dora プラットフォームで手動で追加されたユーザは、自動的に FineBI プラットフォームに同期されます。
+> Emon プラットフォームで手動で追加されたユーザは、自動的に OrangeBI プラットフォームに同期されます。
 
 ### ユーザの編集
 
@@ -46,7 +46,7 @@ generated_at: "2026-06-03T22:47:19+08:00"
 
 ユーザアカウントの無効化または有効化をサポートしています：
 
-- ユーザアカウントを無効にすると、ユーザは Dora プラットフォームにログインできなくなります。
+- ユーザアカウントを無効にすると、ユーザは Emon プラットフォームにログインできなくなります。
 - ユーザアカウントを有効にすると、元の権限が復元されます。
 
 ### ユーザの削除
@@ -63,6 +63,6 @@ generated_at: "2026-06-03T22:47:19+08:00"
 2. ユーザの追加が完了すると、ユーザ名は変更できません。
 3. 無効化は一時的な措置であり、ユーザデータはシステムに保持され、いつでも有効にして復元できます。
 4. 削除操作は元に戻すことができません。操作の前に、そのユーザが不要であることを確認してください。
-5. プラットフォームのユーザデータ権限は、FineBI プラットフォームでのそのユーザのすべてのデータ権限を直接同期して継承します。
+5. プラットフォームのユーザデータ権限は、OrangeBI プラットフォームでのそのユーザのすべてのデータ権限を直接同期して継承します。
 
 

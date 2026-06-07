@@ -7,10 +7,10 @@ sourced_from_kus:
 generated_at: "2026-06-03T22:47:18+08:00"
 ---
 <!-- RENDERED
-brand: native
-brand_display_name: FineReport
+brand: emon
+brand_display_name: Emon
 locale: zh-TW
-rendered_at: 2026-06-07T08:31:49Z
+rendered_at: 2026-06-07T09:25:29Z
 source_master: data/dora/locale/zh-TW/pages/doc-view-20.md
 -->
 
@@ -54,7 +54,7 @@ Data Agent 支援對接外部 AI 平台（例如：OpenClaw），並提供開放
 ## 其他部署設定
 
 在完成 Data Agent 平台部署後，需進行以下兩項操作：
-1. 在『後台地址』中加入對應的 FineBI 地址。
-2. 點擊『連接測試』，以確保 FineAI 外掛程式與 FineBI 平台互通且版本一致。
+1. 在『後台地址』中加入對應的 OrangeBI 地址。
+2. 點擊『連接測試』，以確保 FineAI 外掛程式與 OrangeBI 平台互通且版本一致。
 
 

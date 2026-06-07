@@ -7,10 +7,10 @@ sourced_from_kus:
 generated_at: 2026-06-03T14:05:00Z
 ---
 <!-- RENDERED
-brand: native
-brand_display_name: FineReport
+brand: emon
+brand_display_name: Emon
 locale: zh-TW
-rendered_at: 2026-06-07T08:31:49Z
+rendered_at: 2026-06-07T09:25:29Z
 source_master: data/dora/locale/zh-TW/pages/doc-view-14.md
 -->
 
@@ -24,7 +24,7 @@ source_master: data/dora/locale/zh-TW/pages/doc-view-14.md
 
 以管理員身分登入 Data Agent 平台，新增行政類數據與知識庫，並建立「行政考勤數據助手」Agent，進入 Agent 配置頁面。
 
-操作步驟可參考文件：[建立 Agent](https://help.fanruan.com/finereport/doc-view-4.html)
+操作步驟可參考文件：[建立 Agent](./doc-view-4.md)
 
 ### 2.2 基礎配置
 
@@ -39,7 +39,7 @@ source_master: data/dora/locale/zh-TW/pages/doc-view-14.md
 
 ### 2.3 新增數據
 
-將 FineBI 中需要進行分析的行政考勤類分析主題數據新增至 Agent 中。
+將 OrangeBI 中需要進行分析的行政考勤類分析主題數據新增至 Agent 中。
 
 ### 2.4 新增技能
 
@@ -71,6 +71,6 @@ source_master: data/dora/locale/zh-TW/pages/doc-view-14.md
 
 管理員搭建並發布 Agent 後，一般成員使用者即可在 Data Agent 平台首頁選擇並進入 Agent，建立新會話進行提問。
 
-與 Agent 對話以及會話操作詳情，可參考文件：[使用 Agent 2.3 與 Agent 對話](https://help.fanruan.com/finereport/doc-view-5.html#ddfeaa5703c886a8)
+與 Agent 對話以及會話操作詳情，可參考文件：[使用 Agent 2.3 與 Agent 對話](./doc-view-5.md#ddfeaa5703c886a8)
 
 

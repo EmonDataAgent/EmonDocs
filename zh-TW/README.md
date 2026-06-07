@@ -1,6 +1,6 @@
 ---
 page_id: getting-started
-title: "Dora 快速入門"
+title: "Emon 快速入門"
 locale: zh-TW
 sourced_from_kus:
   - dora.platform.intro
@@ -17,21 +17,21 @@ sourced_from_kus:
 generated_at: "2026-06-04T08:05:05+08:00"
 ---
 <!-- RENDERED
-brand: native
-brand_display_name: FineReport
+brand: emon
+brand_display_name: Emon
 locale: zh-TW
-rendered_at: 2026-06-07T08:31:49Z
+rendered_at: 2026-06-07T09:25:29Z
 source_master: data/dora/locale/zh-TW/pages/getting-started.md
 -->
 
 ## 平台介紹
 
-Dora 是一款企業級資料 Agent（Data Agent <!-- AUTHOR_NOTE: Data Agent 疑似品牌或專有名詞，暫保留原樣 -->）平台，具備企業級資料安全底座與 Agent 編排引擎能力。它能實現在不同業務場景的資料分析、報告、預警、推送等全鏈路閉環。根據任務複雜度，平台會自動「思考」（規劃下一步行動）並「行動」（呼叫對應技能），高效回應業務需求。
+Emon 是一款企業級資料 Agent（Data Agent <!-- AUTHOR_NOTE: Data Agent 疑似品牌或專有名詞，暫保留原樣 -->）平台，具備企業級資料安全底座與 Agent 編排引擎能力。它能實現在不同業務場景的資料分析、報告、預警、推送等全鏈路閉環。根據任務複雜度，平台會自動「思考」（規劃下一步行動）並「行動」（呼叫對應技能），高效回應業務需求。
 
-此平台主要面向資料分析人員與關注資料報告的企業管理者。其核心定位在於降低資料分析門檻、提升分析效率，並賦能業務自助化。Dora 可為財務、營運、銷售等不同業務線建立專屬 Agent 助手，實現資料能力的重複使用與沉澱。
+此平台主要面向資料分析人員與關注資料報告的企業管理者。其核心定位在於降低資料分析門檻、提升分析效率，並賦能業務自助化。Emon 可為財務、營運、銷售等不同業務線建立專屬 Agent 助手，實現資料能力的重複使用與沉澱。
 
 **問數類 Agent**
-問數類 Agent 是 Dora 最基礎的核心能力。它支援使用者透過自然語言對話直接查詢業務資料，並能自動識別提問中的關鍵資訊（智慧解析意圖），精準傳回結果，同時支援多場景查詢。
+問數類 Agent 是 Emon 最基礎的核心能力。它支援使用者透過自然語言對話直接查詢業務資料，並能自動識別提問中的關鍵資訊（智慧解析意圖），精準傳回結果，同時支援多場景查詢。
 
 <!-- VISUAL_PENDING
 visual_id: platform-agent-qa
@@ -96,10 +96,10 @@ ocr_text: |
 
 ## 工作台概覽
 
-工作台即為 Dora 平台的首頁，可讓員工快速選擇合適的 Agent 來處理各種資料分析。使用者可以選擇如『銷售問數 Agent』或『報告分析 Agent』等工具輔助完成工作。開發人員或系統管理員可以建立各種類型的 Agent，並發佈至工作台供員工使用。
+工作台即為 Emon 平台的首頁，可讓員工快速選擇合適的 Agent 來處理各種資料分析。使用者可以選擇如『銷售問數 Agent』或『報告分析 Agent』等工具輔助完成工作。開發人員或系統管理員可以建立各種類型的 Agent，並發佈至工作台供員工使用。
 
-### Dora 通用 Agent
-Dora 通用 Agent 是 帆軟 Dora 平台內建的通用 Agent，整合了平台全部技能。一般使用者可在工作台直接與它進行對話，而管理員則能為其配置模型、排程任務與 IM 串接。
+### Emon 通用 Agent
+Emon 通用 Agent 是 Emon Corp Emon 平台內建的通用 Agent，整合了平台全部技能。一般使用者可在工作台直接與它進行對話，而管理員則能為其配置模型、排程任務與 IM 串接。
 
 <!-- VISUAL_PENDING
 visual_id: dora-general-agent
@@ -116,7 +116,7 @@ ocr_text: |
   我可以帮你 数据分析
   COCO 探索更多专家 ^
 -->
-*圖：Dora 通用 Agent 區塊*
+*圖：Emon 通用 Agent 區塊*
 
 ### 專家 Agent
 點選『探索更多專家』，您可以在專家 Agent 列表中透過名稱或描述快速搜尋目標 Agent。找到合適的 Agent 後，點選該卡片即可進入對話頁面。
@@ -251,7 +251,7 @@ ocr_text: |
 
 ## 開始第一次對話
 
-Dora 的使用場景涵蓋日常資料查詢、多輪對話分析與歷史對話回溯。以下將引導您完成第一次對話分析：
+Emon 的使用場景涵蓋日常資料查詢、多輪對話分析與歷史對話回溯。以下將引導您完成第一次對話分析：
 
 ### 發起與互動
 1. **輸入與提問**：在介面中間的輸入框輸入您的問題（例如「你能幫我做什麼？」或「25 年每個省份的銷售額同比」），然後點選發送按鈕或按 Enter 鍵提交。Agent 會自動解析意圖、呼叫對應技能並於對話區域內傳回結果。

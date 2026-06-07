@@ -1,18 +1,18 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: ja-JP
-rendered_at: 2026-06-03T14:51:59Z
-source_master: data/dora/locale/ja-JP/pages/doc-view-45.md
--->
 ---
 page_id: doc-view-45
-title: "Dora 権限割り当て"
+title: "Emon 権限割り当て"
 locale: ja-JP
 sourced_from_kus: 
   - dora.permission.assignment
 generated_at: "2026-06-03"
 ---
+<!-- RENDERED
+brand: emon
+brand_display_name: Emon
+locale: ja-JP
+rendered_at: 2026-06-07T09:25:29Z
+source_master: data/dora/locale/ja-JP/pages/doc-view-45.md
+-->
 
 ## 1. 概要
 
@@ -57,13 +57,13 @@ generated_at: "2026-06-03"
 
 ### 2.4 データ権限に関する説明
 
-プラットフォームのデータ権限は FineBI プラットフォームと一致します。ユーザが Agent 内でアクセスできるデータの範囲は、FineBI プラットフォームにおけるデータディレクトリの権限に依存します。
+プラットフォームのデータ権限は OrangeBI プラットフォームと一致します。ユーザが Agent 内でアクセスできるデータの範囲は、OrangeBI プラットフォームにおけるデータディレクトリの権限に依存します。
 
-- 開発者は「管理バックエンド>データ」において、自身が FineBI プラットフォーム上で権限を持つデータリソースのみを追加できます。
-- FineBI プラットフォームにおいて特定のデータソースに対する権限を持たないユーザは、Agent 内で該当データをクエリできません。
-- 上記のデータ権限の制限は、FineBI プラットフォームのデータソースのみに適用されます。
+- 開発者は「管理バックエンド>データ」において、自身が OrangeBI プラットフォーム上で権限を持つデータリソースのみを追加できます。
+- OrangeBI プラットフォームにおいて特定のデータソースに対する権限を持たないユーザは、Agent 内で該当データをクエリできません。
+- 上記のデータ権限の制限は、OrangeBI プラットフォームのデータソースのみに適用されます。
 
-以下のデータはデータ権限の制限を受けず、ユーザに FineBI プラットフォームの権限がなくても Agent 内で正常にクエリできます。
+以下のデータはデータ権限の制限を受けず、ユーザに OrangeBI プラットフォームの権限がなくても Agent 内で正常にクエリできます。
 1. アップロードされたローカルの Excel データソース。
 2. Excel データを使用する分析テーマ。
 

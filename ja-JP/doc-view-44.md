@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: ja-JP
-rendered_at: 2026-06-03T14:51:59Z
-source_master: data/dora/locale/ja-JP/pages/doc-view-44.md
--->
 ---
 page_id: doc-view-44
 title: ユーザタイプ
@@ -13,6 +6,13 @@ sourced_from_kus:
   - dora.user_management.user_types
 generated_at: "2026-06-03"
 ---
+<!-- RENDERED
+brand: emon
+brand_display_name: Emon
+locale: ja-JP
+rendered_at: 2026-06-07T09:25:29Z
+source_master: data/dora/locale/ja-JP/pages/doc-view-44.md
+-->
 
 ## 1. 概要
 
@@ -35,7 +35,7 @@ generated_at: "2026-06-03"
 | 閲覧ユーザ | プラットフォームの一般ユーザ | Agent との対話、公開済み Agent の閲覧が可能です。管理システムの設定権限はありません。 | 設定可能です。開発ユーザおよび未割り当てとの相互変更をサポートします。 |
 | 未割り当て | / | プラットフォームの操作権限はありません。 | 設定可能です。開発ユーザおよび閲覧ユーザとの相互変更をサポートします。 |
 
-各ユーザタイプの詳細な権限については、[権限管理](https://help.fanruan.com/finereport/doc-view-45.html) のドキュメントをご参照ください。
+各ユーザタイプの詳細な権限については、[権限管理](./doc-view-45.md) のドキュメントをご参照ください。
 
 ### 2.3 ユーザタイプの一括割り当て
 

@@ -18,10 +18,10 @@ sourced_from_kus:
 generated_at: "2026-06-04T08:05:05+08:00"
 ---
 <!-- RENDERED
-brand: native
-brand_display_name: FineReport
+brand: emon
+brand_display_name: Emon
 locale: zh-TW
-rendered_at: 2026-06-07T08:31:49Z
+rendered_at: 2026-06-07T09:25:29Z
 source_master: data/dora/locale/zh-TW/pages/system-administration.md
 -->
 
@@ -116,7 +116,7 @@ caption_zh_TW: "使用条件篩選搜尋使用者"
 rebuild_spec: null
 -->
 
-1. 點選『添加用户』以建立新使用者，必須填寫使用者名稱、姓名與密碼，並指定其使用者類型（『查看用户』、『开发用户』或『未分配』）。在此建立的使用者會自動同步至 FineBI 平台。
+1. 點選『添加用户』以建立新使用者，必須填寫使用者名稱、姓名與密碼，並指定其使用者類型（『查看用户』、『开发用户』或『未分配』）。在此建立的使用者會自動同步至 OrangeBI 平台。
 
 <!-- VISUAL_PENDING
 visual_id: all-users-02
@@ -167,7 +167,7 @@ caption_zh_TW: "編輯使用者對話方塊中的可修改项"
 rebuild_spec: null
 -->
 
-3. 您可隨時『禁用』使用者，禁用後使用者將無法登入 Dora 平台。此為暫時措施，資料將保留於系統中且可隨時『启用』。若確定不再需要，可選擇刪除，刪除後資料將無法恢復。
+3. 您可隨時『禁用』使用者，禁用後使用者將無法登入 Emon 平台。此為暫時措施，資料將保留於系統中且可隨時『启用』。若確定不再需要，可選擇刪除，刪除後資料將無法恢復。
 
 <!-- VISUAL_PENDING
 visual_id: all-users-04
@@ -219,7 +219,7 @@ caption_zh_TW: "刪除使用者时的二次確認對話方塊"
 rebuild_spec: null
 -->
 
-使用者在 Dora 中的資料權限，會直接繼承其在 FineBI 平台的設定。
+使用者在 Emon 中的資料權限，會直接繼承其在 OrangeBI 平台的設定。
 
 ### 設定使用者類型
 
@@ -470,7 +470,7 @@ caption_zh_TW: "管理後台各模組的個人開發權限和管理權限設定"
 rebuild_spec: null
 -->
 
-在 Agent 查詢資料時，使用者能存取的資料範圍完全取決於其在 FineBI 的權限。若使用者在 FineBI 缺少某資料源的權限，則無法在 Agent 中查詢該資料。開發人員在新增資料資源時，也只能加入自己在 FineBI 已獲授權的資料。上傳的本機 Excel 檔案不受此資料權限限制。
+在 Agent 查詢資料時，使用者能存取的資料範圍完全取決於其在 OrangeBI 的權限。若使用者在 OrangeBI 缺少某資料源的權限，則無法在 Agent 中查詢該資料。開發人員在新增資料資源時，也只能加入自己在 OrangeBI 已獲授權的資料。上傳的本機 Excel 檔案不受此資料權限限制。
 
 ## 排程任務與監管日誌
 
@@ -824,7 +824,7 @@ rebuild_spec: null
 
 ### 管理資料資產
 
-『管理后台』>『数据』模組是為 Agent 提供分析素材的核心樞紐。目前支援匯入 FineBI 的分析主題與儀表板，以及上傳本機的 Excel 檔案（.xls、.xlsx、.csv）。
+『管理后台』>『数据』模組是為 Agent 提供分析素材的核心樞紐。目前支援匯入 OrangeBI 的分析主題與儀表板，以及上傳本機的 Excel 檔案（.xls、.xlsx、.csv）。
 
 <!-- VISUAL_PENDING
 visual_id: data-module-demo

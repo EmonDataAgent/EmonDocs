@@ -9,10 +9,10 @@ sourced_from_kus:
 generated_at: "2026-06-03"
 ---
 <!-- RENDERED
-brand: native
-brand_display_name: FineReport
+brand: emon
+brand_display_name: Emon
 locale: zh-TW
-rendered_at: 2026-06-07T08:31:49Z
+rendered_at: 2026-06-07T09:25:29Z
 source_master: data/dora/locale/zh-TW/pages/doc-view-15.md
 -->
 
@@ -40,7 +40,7 @@ source_master: data/dora/locale/zh-TW/pages/doc-view-15.md
 3. 建立『全國市場潛量洞察報告員』Agent，並進入 Agent 配置頁面。
 
 > [!NOTE]
-> 建立 Agent 的詳細操作，請參閱 [建立Agent](https://help.fanruan.com/finereport/doc-view-4.html)。
+> 建立 Agent 的詳細操作，請參閱 [建立Agent](./doc-view-4.md)。
 
 ### 2.2 基礎配置
 
@@ -54,7 +54,7 @@ source_master: data/dora/locale/zh-TW/pages/doc-view-15.md
 
 ### 2.3 增加資料
 
-將 FineBI 中用於生成分析報告的市場潛量類儀表板資料加入至 Agent 中。
+將 OrangeBI 中用於生成分析報告的市場潛量類儀表板資料加入至 Agent 中。
 
 ### 2.4 增加技能
 
@@ -90,6 +90,6 @@ source_master: data/dora/locale/zh-TW/pages/doc-view-15.md
 
 ## 3. 使用 Agent
 
-管理員搭建並發佈 Agent 後，一般成員使用者即可在 Data Agent 平台首頁選擇並進入該 Agent，建立對話並進行提問。使用 Agent 對話的詳細資訊請參閱 [與Agent對話](https://help.fanruan.com/finereport/doc-view-5.html#ddfeaa5703c886a8)。
+管理員搭建並發佈 Agent 後，一般成員使用者即可在 Data Agent 平台首頁選擇並進入該 Agent，建立對話並進行提問。使用 Agent 對話的詳細資訊請參閱 [與Agent對話](./doc-view-5.md#ddfeaa5703c886a8)。
 
 

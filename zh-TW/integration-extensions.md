@@ -10,20 +10,20 @@ sourced_from_kus:
 generated_at: 2026-06-04T08:05:05+08:00
 ---
 <!-- RENDERED
-brand: native
-brand_display_name: FineReport
+brand: emon
+brand_display_name: Emon
 locale: zh-TW
-rendered_at: 2026-06-07T08:31:49Z
+rendered_at: 2026-06-07T09:25:29Z
 source_master: data/dora/locale/zh-TW/pages/integration-extensions.md
 -->
 
 ## 開放整合 (OpenClaw 與 MCP)
 
-Dora 支援對接外部 AI 平台（如 OpenClaw）與外部 MCP（Model Context Protocol）服務，開放 API 對接能力。透過整合，可將分析產生的圖表或報表定時推播給負責人閱覽，並實現自動發佈 Agent 與查詢歷史對話等功能。此外，外接 MCP 可讓 Agent 呼叫外部工具與獲取外部資料，實現功能的彈性擴充與生態整合。
+Emon 支援對接外部 AI 平台（如 OpenClaw）與外部 MCP（Model Context Protocol）服務，開放 API 對接能力。透過整合，可將分析產生的圖表或報表定時推播給負責人閱覽，並實現自動發佈 Agent 與查詢歷史對話等功能。此外，外接 MCP 可讓 Agent 呼叫外部工具與獲取外部資料，實現功能的彈性擴充與生態整合。
 
 ### OpenClaw 整合設定
-1. 進入『后台地址』，新增對應的 FineBI 地址。
-2. 點選『连接测试』，以確保 <!-- AUTHOR_NOTE: FineAI -->FineAI 外掛與 FineBI 平台互通且版本一致。
+1. 進入『后台地址』，新增對應的 OrangeBI 地址。
+2. 點選『连接测试』，以確保 <!-- AUTHOR_NOTE: FineAI -->FineAI 外掛與 OrangeBI 平台互通且版本一致。
 <VISUAL_PENDING
   id="integration-002"
   ku_id="dora.integration.openclaw"
@@ -61,7 +61,7 @@ Dora 支援對接外部 AI 平台（如 OpenClaw）與外部 MCP（Model Context
   <caption_proposal>Key 管理列表</caption_proposal>
 </VISUAL_PENDING>
 
-4. 按照介面提示，依序完成『发送安装对话』、『发送集成对话』與『检查集成状态』等操作，即可完成 Dora 與 OpenClaw 的整合對接。
+4. 按照介面提示，依序完成『发送安装对话』、『发送集成对话』與『检查集成状态』等操作，即可完成 Emon 與 OpenClaw 的整合對接。
 <VISUAL_PENDING
   id="openclaw-001"
   ku_id="dora.integration.openclaw"
@@ -100,7 +100,7 @@ Dora 支援對接外部 AI 平台（如 OpenClaw）與外部 MCP（Model Context
 </VISUAL_PENDING>
 
 3. 根據 MCP 服務的實際情況，填寫名稱、傳輸方式、描述、URL 以及請求頭，並選擇啟用狀態。建議名稱不要包含中文字元，相關中文說明可填寫於描述中。
-4. 若 MCP 知識庫需基於 FineBI 使用者進行驗證，且 MCP 伺服器支援從請求標頭中獲取使用者名稱，可於『请求头 (JSON 对象)』中配置 `{"fine_username": "${fine_username}"}`。
+4. 若 MCP 知識庫需基於 OrangeBI 使用者進行驗證，且 MCP 伺服器支援從請求標頭中獲取使用者名稱，可於『请求头 (JSON 对象)』中配置 `{"fine_username": "${fine_username}"}`。
 5. 點選『确定』儲存配置，服務將加入至列表中。
 <VISUAL_PENDING
   id="ext-mcp-002"
@@ -115,12 +115,12 @@ Dora 支援對接外部 AI 平台（如 OpenClaw）與外部 MCP（Model Context
 </VISUAL_PENDING>
 
 
-> **注意事項**：不建議新增同類 MCP 或與 Dora 自有技能重複的能力，以免造成誤觸發或呼叫不準確。若找不到對應 MCP，可依序檢查傳輸方式是否正確、MCP 是否過期以及 URL 地址是否正確。
+> **注意事項**：不建議新增同類 MCP 或與 Emon 自有技能重複的能力，以免造成誤觸發或呼叫不準確。若找不到對應 MCP，可依序檢查傳輸方式是否正確、MCP 是否過期以及 URL 地址是否正確。
 
 ## 企業通訊軟體串接 (企業微信等)
 
 對接 IM 工具是 Agent 跨平台觸達的能力模組，支援將智能體與第三方即時通訊工具的機器人綁定，目前主要支援對接企業微信機器人。
-在單聊場景下，使用者可與 Dora 機器人建立單聊對話，適合個人的日常資料查詢；在群聊場景下，使用者可透過 @ 機器人發起資料查詢或報表產生，適合團隊協作。
+在單聊場景下，使用者可與 Emon 機器人建立單聊對話，適合個人的日常資料查詢；在群聊場景下，使用者可透過 @ 機器人發起資料查詢或報表產生，適合團隊協作。
 
 機器人支援多輪對話與上下文保留，會基於前文語境給出連貫回答，且回覆支援富文字訊息卡片，可包含關鍵數字與簡潔圖表。
 <VISUAL_PENDING
@@ -136,7 +136,7 @@ Dora 支援對接外部 AI 平台（如 OpenClaw）與外部 MCP（Model Context
 </VISUAL_PENDING>
 
 ### 前置作業：企業微信應用對接
-在對接前，請確保您擁有企業微信管理後台權限、已為 Dora 服務配置網域，且已取得其出口 IP（用於企業微信可信 IP 配置）。請務必依序完成下列步驟，否則無法對接企業微信使用者名稱或 ID。
+在對接前，請確保您擁有企業微信管理後台權限、已為 Emon 服務配置網域，且已取得其出口 IP（用於企業微信可信 IP 配置）。請務必依序完成下列步驟，否則無法對接企業微信使用者名稱或 ID。
 
 1. **建立應用程式**：企業微信管理員登入企業微信管理後台，進入『应用管理』>『应用』>『自建』，建立應用程式。
 <VISUAL_PENDING
@@ -191,7 +191,7 @@ Dora 支援對接外部 AI 平台（如 OpenClaw）與外部 MCP（Model Context
   <caption_proposal>獲取通訊參數</caption_proposal>
 </VISUAL_PENDING>
 
-4. **平台綁定**：以超級管理員身分進入 Dora『管理后台』>『用户管理』>『IM 用户映射』。點選應用對接配置，填入 Token 與 EncodingAESKey 並進行下一步。在此處您也必須完成平台與 IM 工具之間的使用者映射。
+4. **平台綁定**：以超級管理員身分進入 Emon『管理后台』>『用户管理』>『IM 用户映射』。點選應用對接配置，填入 Token 與 EncodingAESKey 並進行下一步。在此處您也必須完成平台與 IM 工具之間的使用者映射。
 <VISUAL_PENDING
   id="dora-admin-im-mapping"
   ku_id="dora.wecom.app_integration"
@@ -216,7 +216,7 @@ Dora 支援對接外部 AI 平台（如 OpenClaw）與外部 MCP（Model Context
 </VISUAL_PENDING>
 
 
-5. **保存配置與白名單**：回到企業微信後台，保存 API 接收配置。接著前往自建應用配置詳情頁的『开发者接口』>『企业可信IP』點選『配置』，新增 Dora 服務的出口 IP 地址以完成白名單配置。
+5. **保存配置與白名單**：回到企業微信後台，保存 API 接收配置。接著前往自建應用配置詳情頁的『开发者接口』>『企业可信IP』點選『配置』，新增 Emon 服務的出口 IP 地址以完成白名單配置。
 <VISUAL_PENDING
   id="wecom-api-save"
   ku_id="dora.wecom.app_integration"
@@ -264,7 +264,7 @@ Dora 支援對接外部 AI 平台（如 OpenClaw）與外部 MCP（Model Context
   <caption_proposal>獲取企業 ID</caption_proposal>
 </VISUAL_PENDING>
 
-在 Dora 管理後台繼續下一步，填入取得的 CorpSecret 與 CorpId，點選『测试连接并保存』，若顯示「已配置」即代表成功。
+在 Emon 管理後台繼續下一步，填入取得的 CorpSecret 與 CorpId，點選『测试连接并保存』，若顯示「已配置」即代表成功。
 <VISUAL_PENDING
   id="dora-admin-im-save"
   ku_id="dora.wecom.app_integration"
@@ -280,7 +280,7 @@ Dora 支援對接外部 AI 平台（如 OpenClaw）與外部 MCP（Model Context
 ### 建立機器人與 Agent 配置
 前置作業完成後，需建立機器人並將其參數綁定至 Agent。
 
-1. 進入企業微信的『通讯录』>『智能机器人』，選擇『手动创建』一個用於連接 Dora 平台的智能機器人。
+1. 進入企業微信的『通讯录』>『智能机器人』，選擇『手动创建』一個用於連接 Emon 平台的智能機器人。
 <VISUAL_PENDING
   id="im-integ-003"
   ku_id="finereport.skills.im-integration"
@@ -330,7 +330,7 @@ Dora 支援對接外部 AI 平台（如 OpenClaw）與外部 MCP（Model Context
   <caption_proposal>獲取機器人參數</caption_proposal>
 </VISUAL_PENDING>
 
-4. 在 Dora 平台的『Agent 配置页面』>『对接 IM 工具』中，選擇添加「企业微信机器人」，填入前述 Bot ID 與 Bot Secret。
+4. 在 Emon 平台的『Agent 配置页面』>『对接 IM 工具』中，選擇添加「企业微信机器人」，填入前述 Bot ID 與 Bot Secret。
 <VISUAL_PENDING
   id="im-integ-007"
   ku_id="finereport.skills.im-integration"

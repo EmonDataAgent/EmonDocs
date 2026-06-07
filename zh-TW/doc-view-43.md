@@ -7,10 +7,10 @@ sourced_from_kus:
 generated_at: "2026-06-03T22:47:19+08:00"
 ---
 <!-- RENDERED
-brand: native
-brand_display_name: FineReport
+brand: emon
+brand_display_name: Emon
 locale: zh-TW
-rendered_at: 2026-06-07T08:31:49Z
+rendered_at: 2026-06-07T09:25:29Z
 source_master: data/dora/locale/zh-TW/pages/doc-view-43.md
 -->
 
@@ -32,7 +32,7 @@ source_master: data/dora/locale/zh-TW/pages/doc-view-43.md
 - 非必填欄位：信箱、手機號碼。
 
 > [!NOTE]
-> 在 Dora 平台中手動新增的使用者，會自動同步至 FineBI 平台中。
+> 在 Emon 平台中手動新增的使用者，會自動同步至 OrangeBI 平台中。
 
 ### 編輯使用者
 
@@ -46,7 +46,7 @@ source_master: data/dora/locale/zh-TW/pages/doc-view-43.md
 
 支援停用或啟用使用者帳號：
 
-- 使用者帳號停用後，使用者無法登入 Dora 平台。
+- 使用者帳號停用後，使用者無法登入 Emon 平台。
 - 使用者帳號啟用後，會恢復原有權限。
 
 ### 刪除使用者
@@ -63,6 +63,6 @@ source_master: data/dora/locale/zh-TW/pages/doc-view-43.md
 2. 使用者新增完成後，使用者名稱不可修改。
 3. 停用為臨時措施，使用者資料仍保留在系統中，可隨時啟用恢復。
 4. 刪除操作不可撤銷，請在操作前確認該使用者不再需要。
-5. 平台使用者資料權限直接同步繼承該使用者在 FineBI 平台的全部資料權限。
+5. 平台使用者資料權限直接同步繼承該使用者在 OrangeBI 平台的全部資料權限。
 
 

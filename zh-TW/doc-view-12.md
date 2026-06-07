@@ -7,10 +7,10 @@ sourced_from_kus:
 generated_at: "2026-06-03T22:00:00Z"
 ---
 <!-- RENDERED
-brand: native
-brand_display_name: FineReport
+brand: emon
+brand_display_name: Emon
 locale: zh-TW
-rendered_at: 2026-06-07T08:31:49Z
+rendered_at: 2026-06-07T09:25:29Z
 source_master: data/dora/locale/zh-TW/pages/doc-view-12.md
 -->
 
@@ -57,7 +57,7 @@ AI 大模型是 Agent 的底層智慧引擎，Agent 在執行時必須綁定模�
 
 ## 4. 注意事項
 
-1. **免責聲明**：帆軟 僅提供大模型的推薦參考及對接方式，不對大模型本身的問題承擔責任。
+1. **免責聲明**：Emon Corp 僅提供大模型的推薦參考及對接方式，不對大模型本身的問題承擔責任。
 2. 模型刪除後將無法恢復，操作前請確認是否被 Agent 引用。
 3. `ApiKey` 與 `EndPoint` 為敏感資訊，需妥善保管，避免外洩。
 4. 需確保網路環境可存取對應模型的 API 位址，否則連線測試會失敗。

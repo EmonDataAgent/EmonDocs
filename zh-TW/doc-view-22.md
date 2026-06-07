@@ -12,49 +12,49 @@ sourced_from_kus:
 generated_at: "2026-06-03"
 ---
 <!-- RENDERED
-brand: native
-brand_display_name: FineReport
+brand: emon
+brand_display_name: Emon
 locale: zh-TW
-rendered_at: 2026-06-07T08:31:49Z
+rendered_at: 2026-06-07T09:25:29Z
 source_master: data/dora/locale/zh-TW/pages/doc-view-22.md
 -->
 
 # 部署 Data Agent 操作指南
 
-本文講解如何在 FineBI 專案中部署與啟用 Data Agent。
+本文講解如何在 OrangeBI 專案中部署與啟用 Data Agent。
 
 ## 1. 概述與使用前提
 
-FineBI 與 Data Agent 需要按順序部署，因此使用者需要先使用維運平台部署好 FineBI。
+OrangeBI 與 Data Agent 需要按順序部署，因此使用者需要先使用維運平台部署好 OrangeBI。
 
 - **部署維運平台**
-  FineBI 和 Data Agent 均依賴維運平台部署，因此使用者需要提前部署好維運平台。
+  OrangeBI 和 Data Agent 均依賴維運平台部署，因此使用者需要提前部署好維運平台。
   - **如尚未部署維運平台：**
-    請參考文檔部署最新版維運平台。內網環境請務必使用全量版離線安裝包部署，否則無法獲取 FineBI 相關元件映像檔。
+    請參考文檔部署最新版維運平台。內網環境請務必使用全量版離線安裝包部署，否則無法獲取 OrangeBI 相關元件映像檔。
   - **如已部署維運平台：**
     請確保維運平台在 V2.26.0 及以上，建議升級到最新版本。
 
-- **部署 FineBI**
-  使用者需要先使用維運平台部署好 FineBI，再對 FineBI 新增 Data Agent。
-  - **如尚未部署 FineBI：**
-    1. 準備 FineBI 部署環境（確認伺服器配置、網路以及掛載目錄）。
-    2. 部署最新版 FineBI 專案。
-  - **如已部署 FineBI：**
-    請確保 FineBI 部署方式為「維運平台部署」，不支援非維運平台部署。
+- **部署 OrangeBI**
+  使用者需要先使用維運平台部署好 OrangeBI，再對 OrangeBI 新增 Data Agent。
+  - **如尚未部署 OrangeBI：**
+    1. 準備 OrangeBI 部署環境（確認伺服器配置、網路以及掛載目錄）。
+    2. 部署最新版 OrangeBI 專案。
+  - **如已部署 OrangeBI：**
+    請確保 OrangeBI 部署方式為「維運平台部署」，不支援非維運平台部署。
     版本須在 7.0.7 及以上，建議直接升級到最新版本。因為後續提供的映像檔均為最新 Data Agent 映像檔，不同版本適配不同版本的 AI 映像檔。如為歷史版本，請聯絡客服獲取對應版本。
 
 <!-- AUTHOR_NOTE: "FineAI", "FineChatBI", "Data Agent" 未列入 tokenization-rules，保留原樣 -->
 
 ## 2. 全新部署 Data Agent
 
-針對未部署使用過 FineChatBI 的 FineBI 工程。部署前請確認您的維運平台和 FineBI 專案符合上述使用前提。
+針對未部署使用過 FineChatBI 的 OrangeBI 工程。部署前請確認您的維運平台和 OrangeBI 專案符合上述使用前提。
 
 ### 2.1 準備 Data Agent 元件伺服器
 
 由於 Data Agent 所需資源較多，建議為其單獨準備一台伺服器。
 
 - **推薦配置：** CPU 16 核、可用記憶體 64G、可用磁碟 100G，AI 元件獨占伺服器。
-- **最低配置：** CPU 8 核、可用記憶體 16G、可用磁碟 80G，AI 元件與 FineBI 共用伺服器。請在部署完 BI 後確認伺服器有相關閒置資源再著手部署。
+- **最低配置：** CPU 8 核、可用記憶體 16G、可用磁碟 80G，AI 元件與 OrangeBI 共用伺服器。請在部署完 BI 後確認伺服器有相關閒置資源再著手部署。
 
 **基礎要求：**
 - **時間與時區一致：** Data Agent 伺服器與專案其他伺服器時間相差不能超過 5 秒，且時區必須完全一致，否則可能導致定時任務錯誤、資料不一致。
@@ -90,7 +90,7 @@ Data Agent 映像檔無法直接從雲端倉庫提取，需手動推送。
 
 ### 2.3 部署 Data Agent 元件
 
-1. 登入維運平台，進入對應的 FineBI 專案，點選「維護 > 元件管理」。
+1. 登入維運平台，進入對應的 OrangeBI 專案，點選「維護 > 元件管理」。
 2. 點選「新增元件」，選擇「業務服務 > AI」。
 3. （選做）若使用新伺服器，點選「新增節點」，填寫內網 IP、連接埠（預設 22）、具備 sudo 權限的使用者名，以及掛載路徑（預設 `~/data`）。
 4. 選擇要部署的節點（低於最低配置的節點將灰化不可選）。
@@ -100,27 +100,27 @@ Data Agent 映像檔無法直接從雲端倉庫提取，需手動推送。
 ### 2.4 配置與授權
 
 1. 下載 Data Agent 外掛。
-2. 進入 FineBI 系統管理，透過本地安裝 Data Agent 外掛。
+2. 進入 OrangeBI 系統管理，透過本地安裝 Data Agent 外掛。
 3. 聯絡客服或銷售獲取 Data Agent 授權並進行認證安裝。
-4. 部署完成後，FineBI 右上角會出現「Data Agent」按鈕，即代表配置成功。
+4. 部署完成後，OrangeBI 右上角會出現「Data Agent」按鈕，即代表配置成功。
 
 ## 3. 升級部署 Data Agent
 
-針對**曾經部署過** FineChatBI 的 FineBI 工程。優先建議使用未部署過的新專案，否則請自行檢查舊資料的相容性。
+針對**曾經部署過** FineChatBI 的 OrangeBI 工程。優先建議使用未部署過的新專案，否則請自行檢查舊資料的相容性。
 
-1. 登入 FineBI 系統管理，卸載原有的 FineChatBI 外掛。
+1. 登入 OrangeBI 系統管理，卸載原有的 FineChatBI 外掛。
 2. 參考 [2.2 節準備 Data Agent 映像檔與外掛](#22-準備-data-agent-映像檔與外掛)，將最新版映像檔推送至倉庫並修改版本號。
 3. 在維運平台「元件管理」將原 FineChatBI 元件升級至 Data Agent 元件版本。
-4. 進入 FineBI 系統管理，本地安裝最新的 Data Agent 外掛。
+4. 進入 OrangeBI 系統管理，本地安裝最新的 Data Agent 外掛。
 5. 獲取並安裝 Data Agent 授權，確認右上角出現「Data Agent」按鈕。
 
 ## 4. 後續維護與升級
 
 ### 4.1 升級 Data Agent
-1. 請先將 FineBI 專案升級到最新版。
+1. 請先將 OrangeBI 專案升級到最新版。
 2. 將最新的 AI 映像檔包推送到維運平台倉庫。
 3. 在維運平台「維護 > 元件管理」中找到待更新的 AI 元件，點選「更新」。
-4. 升級完成後，在 FineBI 中將 Data Agent 外掛也升級到最新。
+4. 升級完成後，在 OrangeBI 中將 Data Agent 外掛也升級到最新。
 
 ### 4.2 升級 ElasticSearch 元件
 1. 確保升級 ElasticSearch 元件至 v20.4.5-8.17.3 及以上版本，並處於 running 狀態。
@@ -131,7 +131,7 @@ Data Agent 映像檔無法直接從雲端倉庫提取，需手動推送。
 在正式使用 Data Agent 平台前，管理員需進行測試。
 
 1. **平台連線測試：** 
-   前往「Data Agent 管理後台 > 開放整合 > 其他」，新增目前部署 Data Agent 的 FineBI 位址並點選「連線測試」。
+   前往「Data Agent 管理後台 > 開放整合 > 其他」，新增目前部署 Data Agent 的 OrangeBI 位址並點選「連線測試」。
 2. **模型連線測試：** 
    前往「Data Agent 管理後台 > 模型」，對已新增的目標模型進行連線測試，確保大模型為可用狀態。
 

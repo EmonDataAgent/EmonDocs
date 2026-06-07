@@ -7,10 +7,10 @@ sourced_from_kus:
 generated_at: "2026-06-03"
 ---
 <!-- RENDERED
-brand: native
-brand_display_name: FineReport
+brand: emon
+brand_display_name: Emon
 locale: zh-TW
-rendered_at: 2026-06-07T08:31:49Z
+rendered_at: 2026-06-07T09:25:29Z
 source_master: data/dora/locale/zh-TW/pages/doc-view-44.md
 -->
 
@@ -35,7 +35,7 @@ source_master: data/dora/locale/zh-TW/pages/doc-view-44.md
 | 查看使用者 | 平台普通使用者 | 可使用 Agent 對話，查看已發布的 Agent，無後台設定權限。 | 可設定，支援與開發使用者、未分配使用者互轉。 |
 | 未分配 | / | 無平台操作權限。 | 可設定，支援與開發使用者、查看使用者互轉。 |
 
-各個使用者類型的具體權限可參考文件：[權限管理](https://help.fanruan.com/finereport/doc-view-45.html)。
+各個使用者類型的具體權限可參考文件：[權限管理](./doc-view-45.md)。
 
 ### 2.3 批次分配使用者類型
 

@@ -8,16 +8,16 @@ sourced_from_kus:
   - dora.skills.custom.reference
 ---
 <!-- RENDERED
-brand: native
-brand_display_name: FineReport
+brand: emon
+brand_display_name: Emon
 locale: zh-TW
-rendered_at: 2026-06-07T08:31:49Z
+rendered_at: 2026-06-07T09:25:29Z
 source_master: data/dora/locale/zh-TW/pages/doc-view-8.md
 -->
 
 ## 簡介
 
-Dora 平台支援「匯入 SkillHub 技能」與「上傳技能包」兩種方式，讓您快速自訂專屬技能。平台會自動解析技能包設定，並產生可直接使用的技能。您可以按需自訂適合企業、團隊或個人的技能，協助智能體 (Agent) 產出更符合需求的內容。
+Emon 平台支援「匯入 SkillHub 技能」與「上傳技能包」兩種方式，讓您快速自訂專屬技能。平台會自動解析技能包設定，並產生可直接使用的技能。您可以按需自訂適合企業、團隊或個人的技能，協助智能體 (Agent) 產出更符合需求的內容。
 
 ## 設定步驟
 
@@ -36,8 +36,8 @@ Dora 平台支援「匯入 SkillHub 技能」與「上傳技能包」兩種方�
 
 ### 上傳技能包
 
-平台支援上傳本機自有技能包或 Dora 平台產生的技能包。
-您可以直接使用「Dora 通用智能體」，在對話中輸入技能需求，由其自動產生完整的技能包。準備好後，上傳該技能包即可。
+平台支援上傳本機自有技能包或 Emon 平台產生的技能包。
+您可以直接使用「Emon 通用智能體」，在對話中輸入技能需求，由其自動產生完整的技能包。準備好後，上傳該技能包即可。
 
 ### 確認技能內容
 

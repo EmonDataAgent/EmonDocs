@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: ja-JP
-rendered_at: 2026-06-03T14:51:59Z
-source_master: data/dora/locale/ja-JP/pages/doc-view-5.md
--->
 ---
 page_id: doc-view-5
 title: Agentの利用
@@ -16,6 +9,13 @@ sourced_from_kus:
   - dora.agent.session_management.doc-view-5
 generated_at: "2026-06-03"
 ---
+<!-- RENDERED
+brand: emon
+brand_display_name: Emon
+locale: ja-JP
+rendered_at: 2026-06-07T09:25:29Z
+source_master: data/dora/locale/ja-JP/pages/doc-view-5.md
+-->
 
 ## 1. 概要
 

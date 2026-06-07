@@ -1,6 +1,6 @@
 ---
 page_id: doc-view-28
-title: "Dora 模型資源配置"
+title: "Emon 模型資源配置"
 locale: zh-TW
 sourced_from_kus:
   - dora.models.configuration.intro
@@ -10,14 +10,14 @@ sourced_from_kus:
 generated_at: "2026-06-03"
 ---
 <!-- RENDERED
-brand: native
-brand_display_name: FineReport
+brand: emon
+brand_display_name: Emon
 locale: zh-TW
-rendered_at: 2026-06-07T08:31:49Z
+rendered_at: 2026-06-07T09:25:29Z
 source_master: data/dora/locale/zh-TW/pages/doc-view-28.md
 -->
 
-# Dora 模型資源配置
+# Emon 模型資源配置
 
 ## 1. 簡介
 

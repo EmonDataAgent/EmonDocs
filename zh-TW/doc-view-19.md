@@ -9,10 +9,10 @@ sourced_from_kus:
 generated_at: "2026-06-03T22:48:00+08:00"
 ---
 <!-- RENDERED
-brand: native
-brand_display_name: FineReport
+brand: emon
+brand_display_name: Emon
 locale: zh-TW
-rendered_at: 2026-06-07T08:31:49Z
+rendered_at: 2026-06-07T09:25:29Z
 source_master: data/dora/locale/zh-TW/pages/doc-view-19.md
 -->
 
@@ -28,7 +28,7 @@ source_master: data/dora/locale/zh-TW/pages/doc-view-19.md
 | --- | --- | --- |
 | 資料查詢與分析 | 儀表板檢索 | 支援在已綁定的儀表板範圍內檢索資產，並回答相關指標、趨勢、對比與匯總問題。<br><br>註：使用前需參考[使用前準備](https://help.fanruan.com/finebi6.X/doc-view-2678.html#b48d27a13e8a557b)完成操作。 |
 | 資料查詢與分析 | 資料分析 | 對 Excel 和 CSV 資料進行查詢、匯總和匯出。 |
-| 資料查詢與分析 | FR 報表查詢 | 對接 FineReport 平台，支援報表搜尋、預覽、資料分析和參數調整。 |
+| 資料查詢與分析 | FR 報表查詢 | 對接 OrangeReport 平台，支援報表搜尋、預覽、資料分析和參數調整。 |
 | 資料查詢與分析 | 分析主題資料查詢 | 支援使用者透過自然語言描述查詢需求，系統自動解析意圖並查詢相關資料，最終返回結構化的資料結果，提升查詢效率。 |
 | 資料視覺化 | 圖表視覺化 | 根據使用者提出的圖表製作訴求，結合上游資料查詢結果，自動產生 Echarts 圖表，直觀呈現資料規律。 |
 | 報告產生 | html報告 | 根據文字內容、分析結論或報告草稿動態，**從零到一探索式產生可預覽的 HTML 報告頁面**。 |

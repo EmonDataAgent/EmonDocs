@@ -11,10 +11,10 @@ sourced_from_kus:
 generated_at: 2026-06-03
 ---
 <!-- RENDERED
-brand: native
-brand_display_name: FineReport
+brand: emon
+brand_display_name: Emon
 locale: zh-TW
-rendered_at: 2026-06-07T08:31:49Z
+rendered_at: 2026-06-07T09:25:29Z
 source_master: data/dora/locale/zh-TW/pages/doc-view-9.md
 -->
 
@@ -22,10 +22,10 @@ source_master: data/dora/locale/zh-TW/pages/doc-view-9.md
 
 ### 1.1 功能簡介
 
-資料模組是 Dora 中為 Agent 提供分析素材的核心載體。所有供智慧體查詢與分析的業務資料，都會在資料模組中統一進行管理與配置。資料模組具備定期重新整理、資料夾分組管理，以及語意配置等功能，能確保 Agent 進行資料分析時的資料準確度與業務一致性。
+資料模組是 Emon 中為 Agent 提供分析素材的核心載體。所有供智慧體查詢與分析的業務資料，都會在資料模組中統一進行管理與配置。資料模組具備定期重新整理、資料夾分組管理，以及語意配置等功能，能確保 Agent 進行資料分析時的資料準確度與業務一致性。
 
 > **備註：**
-> 目前僅支援對接 FineBI 分析主題與儀表板，以及 Excel 的 .xls、.xlsx、.csv 格式檔案。
+> 目前僅支援對接 OrangeBI 分析主題與儀表板，以及 Excel 的 .xls、.xlsx、.csv 格式檔案。
 
 ### 1.2 使用場景
 
@@ -33,7 +33,7 @@ source_master: data/dora/locale/zh-TW/pages/doc-view-9.md
 - **資料統一管理：** 透過資料夾結構，可整理與規劃不同業務線的資料來源。
 - **資料定期重新整理：** 可設定自動載入與重新整理的頻率，以保證資料的即時性。
 - **語意統一管理：** 可為欄位配置業務上的用語（同義詞），以提升自然語言識別的準確率。
-- **資料資產擴充與接入：** 支援從 FineBI 的資料資產中，新增分析主題或儀表板，或是上傳 .xls、.xlsx、.csv 格式的檔案。
+- **資料資產擴充與接入：** 支援從 OrangeBI 的資料資產中，新增分析主題或儀表板，或是上傳 .xls、.xlsx、.csv 格式的檔案。
 
 ## 2. 資料目錄管理
 
@@ -43,8 +43,8 @@ source_master: data/dora/locale/zh-TW/pages/doc-view-9.md
 
 此外，點擊篩選圖示，可依照資料資產的來源進行分類過濾，目前支援的分類如下：
 - 全部
-- FBI 分析主題
-- FBI 儀表板
+- OBI 分析主題
+- OBI 儀表板
 
 ### 2.2 目錄操作
 

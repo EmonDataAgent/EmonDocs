@@ -20,20 +20,20 @@ sourced_from_kus:
 generated_at: "2026-06-04T08:05:05+08:00"
 ---
 <!-- RENDERED
-brand: native
-brand_display_name: FineReport
+brand: emon
+brand_display_name: Emon
 locale: zh-TW
-rendered_at: 2026-06-07T08:31:49Z
+rendered_at: 2026-06-07T09:25:29Z
 source_master: data/dora/locale/zh-TW/pages/deployment-troubleshooting.md
 -->
 
 ## Data Agent 部署指南
 
-部署 Data Agent 前，請確認已使用運維平台成功部署 FineBI（版本需為 7.0.7 及以上）。運維平台版本需為 V2.26.0 及以上。若在內網環境，請務必使用全量版離線安裝包部署運維平台，否則將無法獲取 FineBI 相關元件映像檔。部署 FineBI 時必須選擇『運維平台部署』，不支援『非運維平台部署』。
+部署 Data Agent 前，請確認已使用運維平台成功部署 OrangeBI（版本需為 7.0.7 及以上）。運維平台版本需為 V2.26.0 及以上。若在內網環境，請務必使用全量版離線安裝包部署運維平台，否則將無法獲取 OrangeBI 相關元件映像檔。部署 OrangeBI 時必須選擇『運維平台部署』，不支援『非運維平台部署』。
 
 ### 伺服器與環境要求
 
-- **伺服器配置**：建議為 Data Agent 單獨準備一台伺服器，以免資源競爭，並為後期增加大模型做準備。推薦配置為 CPU 16 核、可用記憶體 64G、可用磁碟 100G（AI 元件獨占伺服器）。若與專案共用伺服器，最低配置要求為 CPU 8 核、可用記憶體 16G、可用磁碟 80G。不建議在虛擬機中部署 帆軟 應用，且不支援 Kubernetes 環境。
+- **伺服器配置**：建議為 Data Agent 單獨準備一台伺服器，以免資源競爭，並為後期增加大模型做準備。推薦配置為 CPU 16 核、可用記憶體 64G、可用磁碟 100G（AI 元件獨占伺服器）。若與專案共用伺服器，最低配置要求為 CPU 8 核、可用記憶體 16G、可用磁碟 80G。不建議在虛擬機中部署 Emon Corp 應用，且不支援 Kubernetes 環境。
 - **作業系統**：需為 Linux（支援 X86_64 和 ARM 架構），內核 3.10 及以上。推薦使用 Ubuntu 22。必須安裝 `tar` 與 `sed` 命令。
 - **權限與時間**：部署使用者必須具備 `sudo` 權限（優先推薦 root），且使用者的 ssh 連線密碼不得包含英文單引號字元。伺服器時間與時區必須與專案其他伺服器完全一致（時間差不超過 5 秒）。
 - **通訊埠**：需開放 FineAI (<!-- AUTHOR_NOTE: FineAI -->)（7666）、語意解析小模型（8666）與 FineAI Redis（6679）所需之通訊埠。
@@ -146,18 +146,18 @@ purpose: 展示配置 Data Agent 各元件的主機通訊埠和密碼。
 ```
 </div>
 
-9. 在 FineBI 平台的『管理系統>外掛管理>應用商城』，選擇從本機安裝下載好的 Data Agent 外掛。
+9. 在 OrangeBI 平台的『管理系統>外掛管理>應用商城』，選擇從本機安裝下載好的 Data Agent 外掛。
 <div class="visual-pending" id="install-plugin-001">
 ```yaml
 visual_id: install-plugin-001
 role: diagram
 locale_sensitivity: high
 brand_sensitivity: none
-purpose: 展示在 FineBI 外掛管理中從本機安裝 Data Agent 外掛。
+purpose: 展示在 OrangeBI 外掛管理中從本機安裝 Data Agent 外掛。
 ```
 </div>
 
-10. 聯絡銷售獲取 Data Agent 授權並安裝後，FineBI 右上角將顯示『Data Agent』按鈕，即代表配置成功。
+10. 聯絡銷售獲取 Data Agent 授權並安裝後，OrangeBI 右上角將顯示『Data Agent』按鈕，即代表配置成功。
 <div class="visual-pending" id="check-success-001">
 ```yaml
 visual_id: check-success-001
@@ -199,7 +199,7 @@ purpose: 展示在開發者模式下修改 ElasticSearch 環境變數。
 ```
 </div>
 
-13. 部署完成後，前往 Data Agent 管理後台的『開放整合>其他』新增 FineBI 地址並點選『連接測試』以確保互通。
+13. 部署完成後，前往 Data Agent 管理後台的『開放整合>其他』新增 OrangeBI 地址並點選『連接測試』以確保互通。
 <div class="visual-pending" id="test-connection-001">
 ```yaml
 visual_id: test-connection-001
@@ -236,10 +236,10 @@ brand_sensitivity: none
 purpose: 展示透過 F12 開發者工具查看 test 請求回應的過程。
 ```
 </div>
-- 檢查 FineAI 節點是否正常運行。無法正常回應或請求超時多為網路通訊問題引起，FineBI Web 端需與 FineAI 進行雙向通信。
+- 檢查 FineAI 節點是否正常運行。無法正常回應或請求超時多為網路通訊問題引起，OrangeBI Web 端需與 FineAI 進行雙向通信。
 
 ### 工具呼叫 (tool_call) 異常
-- 若第一個請求報錯，第二個請求正常，通常是因為該大模型不支援 `tool_call` 功能（Dora 強制依賴此功能）。
+- 若第一個請求報錯，第二個請求正常，通常是因為該大模型不支援 `tool_call` 功能（Emon 強制依賴此功能）。
 - 可透過帶有與不帶 `tool_call` 的 `curl` 命令進行驗證，若不支援時需更換模型。
 
 **帶 `tool_call` 測試命令**：
@@ -276,7 +276,7 @@ purpose: 展示觸發底層 100 萬列資料限制時的報錯資訊。
 </div>
 
 **解決方案**：
-1. 檢查 FineBI 的『系統管理>BI參數>資料存取限制』，查看資料存取量的限制是否過低。
+1. 檢查 OrangeBI 的『系統管理>BI參數>資料存取限制』，查看資料存取量的限制是否過低。
 2. 將資料存取量的限制調高。
 <div class="visual-pending" id="row-limit-002">
 ```yaml

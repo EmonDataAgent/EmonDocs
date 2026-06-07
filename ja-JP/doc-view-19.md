@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: ja-JP
-rendered_at: 2026-06-03T14:51:59Z
-source_master: data/dora/locale/ja-JP/pages/doc-view-19.md
--->
 ---
 page_id: "doc-view-19"
 title: "スキルの紹介"
@@ -15,6 +8,13 @@ sourced_from_kus:
   - "dora.skills.custom_skills"
 generated_at: "2026-06-03T22:48:00+08:00"
 ---
+<!-- RENDERED
+brand: emon
+brand_display_name: Emon
+locale: ja-JP
+rendered_at: 2026-06-07T09:25:29Z
+source_master: data/dora/locale/ja-JP/pages/doc-view-19.md
+-->
 
 ## 1. 概要
 
@@ -28,7 +28,7 @@ generated_at: "2026-06-03T22:48:00+08:00"
 | --- | --- | --- |
 | データクエリと分析 | ダッシュボード検索 | 関連付けられたダッシュボード内で資産を検索し、関連する指標、トレンド、比較、および集計の質問に回答します。<br><br>注：使用前に[使用前の準備](https://help.fanruan.com/finebi6.X/doc-view-2678.html#b48d27a13e8a557b)を参照して操作を完了してください。 |
 | データクエリと分析 | データ分析 | Excel および CSV データに対してクエリ、集計、エクスポートを実行します。 |
-| データクエリと分析 | FR レポートクエリ | FineReport プラットフォームと連携し、レポートの検索、プレビュー、データ分析、およびパラメータ調整をサポートします。 |
+| データクエリと分析 | FR レポートクエリ | OrangeReport プラットフォームと連携し、レポートの検索、プレビュー、データ分析、およびパラメータ調整をサポートします。 |
 | データクエリと分析 | 分析テーマデータクエリ | ユーザが自然言語でクエリ要件を記述することをサポートし、システムが意図を自動解析して関連データをクエリし、最終的に構造化されたデータ結果を返すことで、クエリ効率を向上させます。 |
 | データ可視化 | チャート可視化 | ユーザのチャート作成要件に基づき、上流のデータクエリ結果と組み合わせて、自動的に Echarts チャートを作成し、データの法則を直感的に表現します。 |
 | レポート作成 | htmlレポート | テキストコンテンツ、分析の結論、またはレポートのドラフト動態に基づいて、**ゼロからプレビュー可能な HTML レポートページを探索的に生成します**。 |

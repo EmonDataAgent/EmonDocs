@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: ja-JP
-rendered_at: 2026-06-03T14:51:59Z
-source_master: data/dora/locale/ja-JP/pages/doc-view-14.md
--->
 ---
 page_id: doc-view-14
 title: 行政・勤怠データアシスタント
@@ -13,6 +6,13 @@ sourced_from_kus:
   - dora.agents.administrative_attendance
 generated_at: 2026-06-03T14:05:00Z
 ---
+<!-- RENDERED
+brand: emon
+brand_display_name: Emon
+locale: ja-JP
+rendered_at: 2026-06-07T09:25:29Z
+source_master: data/dora/locale/ja-JP/pages/doc-view-14.md
+-->
 
 ## 1. 概要
 
@@ -24,7 +24,7 @@ generated_at: 2026-06-03T14:05:00Z
 
 管理者として Data Agent プラットフォームにログインし、行政関連データとナレッジベースを追加します。「行政・勤怠データアシスタント」Agent を作成し、Agent 設定画面に入ります。
 
-操作手順については、以下のドキュメントを参照してください：[Agent の作成](https://help.fanruan.com/finereport/doc-view-4.html)
+操作手順については、以下のドキュメントを参照してください：[Agent の作成](./doc-view-4.md)
 
 ### 2.2 基本設定
 
@@ -39,7 +39,7 @@ generated_at: 2026-06-03T14:05:00Z
 
 ### 2.3 データの追加
 
-FineBI から、分析が必要な行政・勤怠関連の分析テーマデータを Agent に追加します。
+OrangeBI から、分析が必要な行政・勤怠関連の分析テーマデータを Agent に追加します。
 
 ### 2.4 スキルの追加
 
@@ -71,6 +71,6 @@ FineBI から、分析が必要な行政・勤怠関連の分析テーマデー�
 
 管理者が Agent を構築して公開した後、一般メンバーユーザーは Data Agent プラットフォームのトップページから Agent を選択して入り、新しいセッションを作成して質問することができます。
 
-Agent との会話およびセッション操作の詳細については、以下のドキュメントを参照してください：[Agent の使用 2.3 Agent との会話](https://help.fanruan.com/finereport/doc-view-5.html#ddfeaa5703c886a8)
+Agent との会話およびセッション操作の詳細については、以下のドキュメントを参照してください：[Agent の使用 2.3 Agent との会話](./doc-view-5.md#ddfeaa5703c886a8)
 
 

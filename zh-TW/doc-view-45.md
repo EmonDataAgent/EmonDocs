@@ -1,16 +1,16 @@
 ---
 page_id: doc-view-45
-title: "Dora 權限分配"
+title: "Emon 權限分配"
 locale: zh-TW
 sourced_from_kus: 
   - dora.permission.assignment
 generated_at: "2026-06-03"
 ---
 <!-- RENDERED
-brand: native
-brand_display_name: FineReport
+brand: emon
+brand_display_name: Emon
 locale: zh-TW
-rendered_at: 2026-06-07T08:31:49Z
+rendered_at: 2026-06-07T09:25:29Z
 source_master: data/dora/locale/zh-TW/pages/doc-view-45.md
 -->
 
@@ -57,13 +57,13 @@ source_master: data/dora/locale/zh-TW/pages/doc-view-45.md
 
 ### 2.4 資料權限說明
 
-平台的資料權限與 FineBI 平台保持一致。用戶在 Agent 中可存取的資料範圍，取決於其在 FineBI 平台中的資料目錄權限。
+平台的資料權限與 OrangeBI 平台保持一致。用戶在 Agent 中可存取的資料範圍，取決於其在 OrangeBI 平台中的資料目錄權限。
 
-- 開發人員僅可在「管理後台>資料」中，新增自身在 FineBI 平台已獲權限的資料資源。
-- 若用戶在 FineBI 平台中缺少某資料源的權限，則無法在 Agent 中查詢到該資料。
-- 資料權限限制僅針對 FineBI 平台資料源。
+- 開發人員僅可在「管理後台>資料」中，新增自身在 OrangeBI 平台已獲權限的資料資源。
+- 若用戶在 OrangeBI 平台中缺少某資料源的權限，則無法在 Agent 中查詢到該資料。
+- 資料權限限制僅針對 OrangeBI 平台資料源。
 
-以下資料不受資料權限限制，用戶即使缺少 FineBI 平台權限，仍可在 Agent 中正常查詢：
+以下資料不受資料權限限制，用戶即使缺少 OrangeBI 平台權限，仍可在 Agent 中正常查詢：
 1. 上傳的本地 Excel 資料源。
 2. 使用 Excel 資料的分析主題。
 

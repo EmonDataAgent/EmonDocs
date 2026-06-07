@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: ja-JP
-rendered_at: 2026-06-03T14:51:59Z
-source_master: data/dora/locale/ja-JP/pages/doc-view-13.md
--->
 ---
 page_id: doc-view-13
 title: ワークベンチのご紹介
@@ -16,18 +9,25 @@ sourced_from_kus:
   - dora.workbench.management_backend
 generated_at: 2026-06-03
 ---
+<!-- RENDERED
+brand: emon
+brand_display_name: Emon
+locale: ja-JP
+rendered_at: 2026-06-07T09:25:29Z
+source_master: data/dora/locale/ja-JP/pages/doc-view-13.md
+-->
 
 # ワークベンチのご紹介
 
 ## 1. 概要
 
-ワークベンチは Dora プラットフォームのホームページです。社員は様々なデータ分析を処理するために適切な Agent を素早く選択できます。
+ワークベンチは Emon プラットフォームのホームページです。社員は様々なデータ分析を処理するために適切な Agent を素早く選択できます。
 
 主な利用シナリオは以下の通りです：
 - 閲覧ユーザは「販売問合せ Agent」や「レポート分析 Agent」などを選択して業務を補助できます。
 - 開発ユーザまたは管理者は様々なタイプの Agent を作成し、ワークベンチに公開して社員に提供できます。
 
-Dora に直接メッセージを送信する例は、以下の通りです：
+Emon に直接メッセージを送信する例は、以下の通りです：
 
 [VISUAL_PENDING:dora.workbench.overview:0]
 <!--
@@ -35,13 +35,13 @@ role: decorative
 locale_sensitivity: unknown
 brand_sensitivity: unknown
 production_method: reuse_original
-reason: "Dora へのメッセージ送信アニメーションです。"
+reason: "Emon へのメッセージ送信アニメーションです。"
 suggested_ui_text_mapping: {}
 -->
 
 ## 2. 汎用 Agent
 
-Dora 汎用 Agent は、帆軟 の Dora プラットフォームに組み込まれた汎用的な Agent で、プラットフォームの全スキルを統合しています。管理者は Dora のモデル構成、スケジュールタスク、IM 連携を設定できます。閲覧ユーザはワークベンチ上で直接 Dora と会話できます。
+Emon 汎用 Agent は、Emon Corp の Emon プラットフォームに組み込まれた汎用的な Agent で、プラットフォームの全スキルを統合しています。管理者は Emon のモデル構成、スケジュールタスク、IM 連携を設定できます。閲覧ユーザはワークベンチ上で直接 Emon と会話できます。
 
 [VISUAL_PENDING:dora.workbench.general_agent:0]
 <!--

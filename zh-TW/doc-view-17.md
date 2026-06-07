@@ -7,10 +7,10 @@ sourced_from_kus:
 generated_at: "2026-06-03T22:47:18+08:00"
 ---
 <!-- RENDERED
-brand: native
-brand_display_name: FineReport
+brand: emon
+brand_display_name: Emon
 locale: zh-TW
-rendered_at: 2026-06-07T08:31:49Z
+rendered_at: 2026-06-07T09:25:29Z
 source_master: data/dora/locale/zh-TW/pages/doc-view-17.md
 -->
 
@@ -42,7 +42,7 @@ source_master: data/dora/locale/zh-TW/pages/doc-view-17.md
 
 - **新增技能**：點擊「+」按鈕，選擇一個或多個在「管理後台 > 技能」中已發佈的官方技能。Agent 將會根據使用者的提問，自動呼叫對應的技能能力。
 - **編輯技能**：技能新增成功後，支援修改技能名稱與描述，以便管理員能更快速地辨識各項技能。
-- **調整技能配置**：您可以對已新增的技能調整其可用的資料，以提升技能使用的精確度與準確性。目前僅支援對以下 4 種技能進行配置調整：儀表板檢索、FR 報表查詢、分析主題資料查詢、智能報告。
+- **調整技能配置**：您可以對已新增的技能調整其可用的資料，以提升技能使用的精確度與準確性。目前僅支援對以下 4 種技能進行配置調整：儀表板檢索、OR 報表查詢、分析主題資料查詢、智能報告。
 - **刪除技能**：支援刪除已新增的技能，藉此調整 Agent 的能力範圍。
 
 ## 外部整合與排程任務

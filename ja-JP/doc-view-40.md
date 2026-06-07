@@ -1,19 +1,19 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: ja-JP
-rendered_at: 2026-06-03T14:51:59Z
-source_master: data/dora/locale/ja-JP/pages/doc-view-40.md
--->
 ---
 page_id: doc-view-40
-title: "Dora 監査ログ"
+title: "Emon 監査ログ"
 locale: ja-JP
 sourced_from_kus:
   - dora.monitoring.logs.concept
   - dora.monitoring.logs.reference
 generated_at: "2026-06-03T22:47:19+08:00"
 ---
+<!-- RENDERED
+brand: emon
+brand_display_name: Emon
+locale: ja-JP
+rendered_at: 2026-06-07T09:25:29Z
+source_master: data/dora/locale/ja-JP/pages/doc-view-40.md
+-->
 
 ## 概要
 

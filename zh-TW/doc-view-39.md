@@ -9,10 +9,10 @@ sourced_from_kus:
 generated_at: "2026-06-03"
 ---
 <!-- RENDERED
-brand: native
-brand_display_name: FineReport
+brand: emon
+brand_display_name: Emon
 locale: zh-TW
-rendered_at: 2026-06-07T08:31:49Z
+rendered_at: 2026-06-07T09:25:29Z
 source_master: data/dora/locale/zh-TW/pages/doc-view-39.md
 -->
 
@@ -50,8 +50,8 @@ source_master: data/dora/locale/zh-TW/pages/doc-view-39.md
 2.  服務啟用後將自動下發給所有 Agent。停用後 Agent 將無法呼叫該服務，需提前評估影響範圍。
 3.  需根據外部 MCP 服務的實際協定選擇對應的傳輸方式，協定不符將導致連線失敗。
 4.  MCP 名稱不建議包含中文字元，相關中文說明可新增在描述中。
-5.  不建議新增同類 MCP 及與 Dora 自有技能重複的功能，避免造成誤觸發或呼叫不準確的問題。
+5.  不建議新增同類 MCP 及與 Emon 自有技能重複的功能，避免造成誤觸發或呼叫不準確的問題。
 6.  若找不到對應 MCP，可依序檢查：優先檢查傳輸方式是否正確；接著檢查 MCP 是否過期；最後檢查 URL 位址是否正確。
-7.  若 MCP 知識庫需要基於 FineBI 使用者進行驗證，且 MCP 伺服器已支援從請求標頭中取得使用者名稱，則可在『請求頭 (JSON 对象)』中設定：`{"fine_username": "${fine_username}"}`。
+7.  若 MCP 知識庫需要基於 OrangeBI 使用者進行驗證，且 MCP 伺服器已支援從請求標頭中取得使用者名稱，則可在『請求頭 (JSON 对象)』中設定：`{"fine_username": "${fine_username}"}`。
 
 

@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: ja-JP
-rendered_at: 2026-06-03T14:51:59Z
-source_master: data/dora/locale/ja-JP/pages/doc-view-26.md
--->
 ---
 page_id: doc-view-26
 title: 推奨大規模言語モデル
@@ -13,12 +6,19 @@ sourced_from_kus:
   - dora.models.recommendations.doc-view-26
 generated_at: "2026-06-03"
 ---
+<!-- RENDERED
+brand: emon
+brand_display_name: Emon
+locale: ja-JP
+rendered_at: 2026-06-07T09:25:29Z
+source_master: data/dora/locale/ja-JP/pages/doc-view-26.md
+-->
 
 ## 1. はじめに
 
 Data Agent は、OpenAI/Azure インターフェース仕様に準拠したローカルのディープラーニングモデルおよびクラウド上の大規模言語モデルの接続をサポートしています。
 
-**免責事項：** 帆軟 は大規模言語モデルの推奨事項および接続方法のみを提供しており、大規模言語モデル自体の問題については責任を負いません。
+**免責事項：** Emon Corp は大規模言語モデルの推奨事項および接続方法のみを提供しており、大規模言語モデル自体の問題については責任を負いません。
 
 ## 2. モデル要件
 

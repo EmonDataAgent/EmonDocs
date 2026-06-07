@@ -17,10 +17,10 @@ sourced_from_kus:
 generated_at: "2026-06-04T08:05:05+08:00"
 ---
 <!-- RENDERED
-brand: native
-brand_display_name: FineReport
+brand: emon
+brand_display_name: Emon
 locale: zh-TW
-rendered_at: 2026-06-07T08:31:49Z
+rendered_at: 2026-06-07T09:25:29Z
 source_master: data/dora/locale/zh-TW/pages/agent-management.md
 -->
 
@@ -50,14 +50,14 @@ ocr_text: |
 4. 在基礎設定中下拉選擇已新增的大語言模型。並填寫系統提示詞，以定義智能體的角色、回答風格與能力邊界。
 5. 點選『+』按鈕新增資料或技能：
    - 選擇已新增的分析主題或儀表板，您可在彈出視窗中點選左側目錄進行預覽。
-   - 選擇官方技能或 MCP 工具。Agent 運作時會自動呼叫對應技能。您可以修改技能名稱與描述。也可調整技能可用的資料範圍，以提高執行精準度。目前支援：儀表板檢索、FR 報表查詢、分析主題資料查詢與智能報告。
+   - 選擇官方技能或 MCP 工具。Agent 運作時會自動呼叫對應技能。您可以修改技能名稱與描述。也可調整技能可用的資料範圍，以提高執行精準度。目前支援：儀表板檢索、OR 報表查詢、分析主題資料查詢與智能報告。
 6. 設定對話體驗。您可以設定 Agent 首頁的歡迎語及使用者首次對話的首輪推薦問題。在設定過程中，右側的預覽區會即時展示效果；您可在該區進行測試，其問答紀錄不會計入歷史對話中。封裝 Agent 預設開啟並支援上下文多輪對話。
 7. （選用）為 Agent 新增排程任務並設定推播管道。支援透過平台或企業微信等進行推送。封裝 Agent 也可對接企業微信機器人，實現在企業微信內直接使用。
 8. 點選右上角的『發佈』按鈕。在發佈前可設定可見範圍（預設為全部使用者可見，也可指定部分使用者）。
 9. 選擇發佈管道：
    - **工作台**：發佈至使用者工作台供業務人員使用。
    - **獨立 URL**：產生獨立連結對外分享。
-   - **FineBI 平台**：發佈至目錄資源中，使用者存取資源時可透過側邊欄發起對話。單個 Agent 可發佈至多個資源，但單個資源僅允許關聯一個 Agent。
+   - **OrangeBI 平台**：發佈至目錄資源中，使用者存取資源時可透過側邊欄發起對話。單個 Agent 可發佈至多個資源，但單個資源僅允許關聯一個 Agent。
 
 <!-- VISUAL_PENDING
 visual_id: create-agt-009
@@ -65,8 +65,8 @@ role: screenshot
 locale_sensitivity: high
 brand_sensitivity: medium
 production_method: recreation
-purpose: "展示將 Agent 發佈至 FineBI 平台後的實際應用效果。"
-caption_zh_cn: "FineBI 平台發佈"
+purpose: "展示將 Agent 發佈至 OrangeBI 平台後的實際應用效果。"
+caption_zh_cn: "OrangeBI 平台發佈"
 ocr_text: "(原圖無 OCR 文字)"
 note: "待人工確認 brand_sensitivity"
 -->
@@ -121,7 +121,7 @@ ocr_text: |
 4. 點選『連線測試』，確認網路環境可正常存取 API。測試通過後點選『儲存』。
 
 > [!WARNING]
-> 帆軟 僅提供大模型的推薦參考及對接方式，不對大模型本身的問題承擔責任。
+> Emon Corp 僅提供大模型的推薦參考及對接方式，不對大模型本身的問題承擔責任。
 
 ## Agent 列表與對話紀錄管理
 

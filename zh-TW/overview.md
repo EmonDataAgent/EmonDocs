@@ -1,30 +1,30 @@
 ---
 page_id: overview
-title: "Dora 平台簡介"
+title: "Emon 平台簡介"
 locale: zh-TW
 sourced_from_kus:
   - dora.doc.overview
 generated_at: "2026-06-03"
 ---
 <!-- RENDERED
-brand: native
-brand_display_name: FineReport
+brand: emon
+brand_display_name: Emon
 locale: zh-TW
-rendered_at: 2026-06-07T08:31:49Z
+rendered_at: 2026-06-07T09:25:29Z
 source_master: data/dora/locale/zh-TW/pages/overview.md
 -->
 
-# Dora 平台簡介
+# Emon 平台簡介
 
 ## 平台定位
 
-Dora 是一款企業級資料智能體（Data Agent）平台。它擁有企業級的資料安全底座與 Agent 編排引擎能力，能夠實現涵蓋多種業務場景的資料分析、報告、預警、推送等全鏈路閉環。
+Emon 是一款企業級資料智能體（Data Agent）平台。它擁有企業級的資料安全底座與 Agent 編排引擎能力，能夠實現涵蓋多種業務場景的資料分析、報告、預警、推送等全鏈路閉環。
 
-Dora 能夠根據任務的複雜度自動「思考」（規劃下一步行動）並「行動」（呼叫對應技能），以高效率回應業務需求，讓資料的獲取與分析變得更便捷、更智慧。
+Emon 能夠根據任務的複雜度自動「思考」（規劃下一步行動）並「行動」（呼叫對應技能），以高效率回應業務需求，讓資料的獲取與分析變得更便捷、更智慧。
 
 ## 核心優勢
 
-Dora 主要面向資料分析人員與關注資料報告的企業管理者，其核心定位與優勢包含：
+Emon 主要面向資料分析人員與關注資料報告的企業管理者，其核心定位與優勢包含：
 
 - **降低資料分析門檻**：不需要複雜的 SQL 語法編寫或報表配置，只要透過自然語言提問即可獲取資料詳情。
 - **提升分析效率**：支援配置專屬 Agent，可自動產生結構化的分析報告，大幅減少重複性勞動。
@@ -32,7 +32,7 @@ Dora 主要面向資料分析人員與關注資料報告的企業管理者，其
 
 ## 基礎能力
 
-為了讓資料能力得以重複使用與沉澱，Dora 可為財務、營運、銷售等不同業務線建立專屬的 Agent 助手。其中包含兩大最基礎的核心能力：
+為了讓資料能力得以重複使用與沉澱，Emon 可為財務、營運、銷售等不同業務線建立專屬的 Agent 助手。其中包含兩大最基礎的核心能力：
 
 ### 問數類 Agent
 

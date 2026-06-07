@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: ja-JP
-rendered_at: 2026-06-03T14:51:59Z
-source_master: data/dora/locale/ja-JP/pages/doc-view-12.md
--->
 ---
 page_id: doc-view-12
 title: "モデルの追加と管理"
@@ -13,6 +6,13 @@ sourced_from_kus:
   - dora.model.add
 generated_at: "2026-06-03T22:00:00Z"
 ---
+<!-- RENDERED
+brand: emon
+brand_display_name: Emon
+locale: ja-JP
+rendered_at: 2026-06-07T09:25:29Z
+source_master: data/dora/locale/ja-JP/pages/doc-view-12.md
+-->
 
 ## 1. はじめに
 
@@ -57,7 +57,7 @@ AI 大規模モデルは Agent の基盤となるインテリジェントエン�
 
 ## 4. 注意事項
 
-1. **免責事項**：帆軟 は大規模モデルの推奨リファレンスと接続方法のみを提供し、大規模モデル自体の問題については責任を負いません。
+1. **免責事項**：Emon Corp は大規模モデルの推奨リファレンスと接続方法のみを提供し、大規模モデル自体の問題については責任を負いません。
 2. モデルは削除すると復元できません。操作前に Agent に参照されているかどうかを確認してください。
 3. `ApiKey` と `EndPoint` は機密情報です。漏洩を防ぐため、適切に保管してください。
 4. ネットワーク環境が対応するモデルの API アドレスにアクセスできることを確認してください。そうでない場合、接続テストは失敗します。

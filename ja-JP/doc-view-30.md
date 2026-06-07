@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: ja-JP
-rendered_at: 2026-06-03T14:51:59Z
-source_master: data/dora/locale/ja-JP/pages/doc-view-30.md
--->
 ---
 page_id: doc-view-30
 title: "IM ユーザマッピング"
@@ -16,6 +9,13 @@ sourced_from_kus:
   - dora-im-user-mapping-notes
 generated_at: "2026-06-03T22:50:00+08:00"
 ---
+<!-- RENDERED
+brand: emon
+brand_display_name: Emon
+locale: ja-JP
+rendered_at: 2026-06-07T09:25:29Z
+source_master: data/dora/locale/ja-JP/pages/doc-view-30.md
+-->
 
 ## 機能の概要
 
@@ -35,7 +35,7 @@ IM ユーザマッピング機能は、サードパーティ製 IM プラット�
 
 ### アプリケーションの連携
 
-ユーザマッピングを行う前に、企業WeChat の管理者が企業WeChat 管理画面にログインし、アプリケーション連携を完了させる必要があります。詳細はドキュメント『[企業微信機器人-應用對接](https://help.fanruan.com/finereport/doc-view-52.html)』をご参照ください。
+ユーザマッピングを行う前に、企業WeChat の管理者が企業WeChat 管理画面にログインし、アプリケーション連携を完了させる必要があります。詳細はドキュメント『[企業微信機器人-應用對接](./doc-view-52.md)』をご参照ください。
 
 ### ユーザマッチング方式の選択
 

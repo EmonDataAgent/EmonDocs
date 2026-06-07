@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: ja-JP
-rendered_at: 2026-06-03T14:51:59Z
-source_master: data/dora/locale/ja-JP/pages/doc-view-34.md
--->
 ---
 page_id: doc-view-34
 title: チャート可視化
@@ -12,6 +5,13 @@ locale: ja-JP
 sourced_from_kus:
   - dora.skills.chart_visualization
 ---
+<!-- RENDERED
+brand: emon
+brand_display_name: Emon
+locale: ja-JP
+rendered_at: 2026-06-07T09:25:29Z
+source_master: data/dora/locale/ja-JP/pages/doc-view-34.md
+-->
 
 ## 1. 概要
 

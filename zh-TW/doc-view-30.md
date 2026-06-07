@@ -10,10 +10,10 @@ sourced_from_kus:
 generated_at: "2026-06-03T22:50:00+08:00"
 ---
 <!-- RENDERED
-brand: native
-brand_display_name: FineReport
+brand: emon
+brand_display_name: Emon
 locale: zh-TW
-rendered_at: 2026-06-07T08:31:49Z
+rendered_at: 2026-06-07T09:25:29Z
 source_master: data/dora/locale/zh-TW/pages/doc-view-30.md
 -->
 
@@ -35,7 +35,7 @@ IM 使用者對應功能用於將第三方 IM 平台中的使用者與 Data Agen
 
 ### 應用程式對接
 
-在進行使用者對應前，企業微信管理員必須先登入企業微信管理後台，並完成應用程式對接操作。詳細步驟請參考文件：[企業微信機器人-應用對接](https://help.fanruan.com/finereport/doc-view-52.html)。
+在進行使用者對應前，企業微信管理員必須先登入企業微信管理後台，並完成應用程式對接操作。詳細步驟請參考文件：[企業微信機器人-應用對接](./doc-view-52.md)。
 
 ### 選擇使用者比對方式
 

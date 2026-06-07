@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: ja-JP
-rendered_at: 2026-06-03T14:51:59Z
-source_master: data/dora/locale/ja-JP/pages/doc-view-20.md
--->
 ---
 page_id: doc-view-20
 title: "オープン連携の概要"
@@ -13,6 +6,13 @@ sourced_from_kus:
   - dora.open-integration.introduction.overview
 generated_at: "2026-06-03T22:47:18+08:00"
 ---
+<!-- RENDERED
+brand: emon
+brand_display_name: Emon
+locale: ja-JP
+rendered_at: 2026-06-07T09:25:29Z
+source_master: data/dora/locale/ja-JP/pages/doc-view-20.md
+-->
 
 ## 概要
 
@@ -54,7 +54,7 @@ Agent の作成プロセスにおいて、Agent が使用可能なデータや�
 ## その他のデプロイ設定
 
 Data Agent プラットフォームのデプロイが完了した後、以下の2つの操作を行う必要があります。
-1. 「バックグラウンドアドレス」に対応する FineBI のアドレスを追加します。
-2. 「接続テスト」をクリックして、FineAI プラグインと FineBI プラットフォームが相互通信でき、バージョンが一致していることを確認します。
+1. 「バックグラウンドアドレス」に対応する OrangeBI のアドレスを追加します。
+2. 「接続テスト」をクリックして、FineAI プラグインと OrangeBI プラットフォームが相互通信でき、バージョンが一致していることを確認します。
 
 

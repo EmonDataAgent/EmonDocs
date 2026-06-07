@@ -8,10 +8,10 @@ sourced_from_kus:
 generated_at: "2026-06-03T22:47:20+08:00"
 ---
 <!-- RENDERED
-brand: native
-brand_display_name: FineReport
+brand: emon
+brand_display_name: Emon
 locale: zh-TW
-rendered_at: 2026-06-07T08:31:49Z
+rendered_at: 2026-06-07T09:25:29Z
 source_master: data/dora/locale/zh-TW/pages/doc-view-48.md
 -->
 
@@ -23,7 +23,7 @@ source_master: data/dora/locale/zh-TW/pages/doc-view-48.md
 
 **排查步驟：**
 
-1. 檢查 FineBI 的『系統管理 > BI參數 > 資料存取限制』，確認資料存取量的限制是否設定過低。
+1. 檢查 OrangeBI 的『系統管理 > BI參數 > 資料存取限制』，確認資料存取量的限制是否設定過低。
 2. 調高資料存取量的限制設定。
 
 ## 2. 報告類技能 Token 消耗

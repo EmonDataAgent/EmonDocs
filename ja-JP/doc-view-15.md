@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: ja-JP
-rendered_at: 2026-06-03T14:51:59Z
-source_master: data/dora/locale/ja-JP/pages/doc-view-15.md
--->
 ---
 page_id: "doc-view-15"
 title: "全国市場ポテンシャルインサイトレポート担当"
@@ -15,6 +8,13 @@ sourced_from_kus:
   - "dora.quick_start.market_potential_agent.usage"
 generated_at: "2026-06-03"
 ---
+<!-- RENDERED
+brand: emon
+brand_display_name: Emon
+locale: ja-JP
+rendered_at: 2026-06-07T09:25:29Z
+source_master: data/dora/locale/ja-JP/pages/doc-view-15.md
+-->
 
 ## 1. 概要
 
@@ -40,7 +40,7 @@ generated_at: "2026-06-03"
 3. 「全国市場ポテンシャルインサイトレポート担当」Agent を作成し、Agent の設定ページにアクセスします。
 
 > [!NOTE]
-> 事前操作の詳細については、[Agent の作成](https://help.fanruan.com/finereport/doc-view-4.html) を参照してください。
+> 事前操作の詳細については、[Agent の作成](./doc-view-4.md) を参照してください。
 
 ### 2.2 基本設定
 
@@ -54,7 +54,7 @@ generated_at: "2026-06-03"
 
 ### 2.3 データの追加
 
-FineBI から、分析レポート生成用の市場ポテンシャル関連のダッシュボードデータを Agent に追加します。
+OrangeBI から、分析レポート生成用の市場ポテンシャル関連のダッシュボードデータを Agent に追加します。
 
 ### 2.4 スキルの追加
 
@@ -90,6 +90,6 @@ FineBI から、分析レポート生成用の市場ポテンシャル関連の�
 
 ## 3. Agent の使用
 
-管理者が Agent を構築・公開すると、一般ユーザーは Data Agent プラットフォームのホーム画面から当該 Agent を選択して新しいチャットを開始し、質問を行うことができます。Agent とのチャットの詳細は、[Agent とのチャット](https://help.fanruan.com/finereport/doc-view-5.html#ddfeaa5703c886a8) を参照してください。
+管理者が Agent を構築・公開すると、一般ユーザーは Data Agent プラットフォームのホーム画面から当該 Agent を選択して新しいチャットを開始し、質問を行うことができます。Agent とのチャットの詳細は、[Agent とのチャット](./doc-view-5.md#ddfeaa5703c886a8) を参照してください。
 
 

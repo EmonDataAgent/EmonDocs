@@ -10,10 +10,10 @@ sourced_from_kus:
 generated_at: 2026-06-03T14:47:18Z
 ---
 <!-- RENDERED
-brand: native
-brand_display_name: FineReport
+brand: emon
+brand_display_name: Emon
 locale: zh-TW
-rendered_at: 2026-06-07T08:31:49Z
+rendered_at: 2026-06-07T09:25:29Z
 source_master: data/dora/locale/zh-TW/pages/doc-view-4.md
 -->
 
@@ -54,11 +54,11 @@ source_master: data/dora/locale/zh-TW/pages/doc-view-4.md
 在 Agent 配置完成並測試無誤後，點擊右上角的「發布」按鈕，可選擇以下發布方式並確定：
 1. **工作台**：將 Agent 發布到使用者工作台，供業務人員使用。
 2. **獨立 URL**：為 Agent 生成獨立的 URL 連結，便於對外分享。
-3. **FineBI 平台**：支援將 Agent 發布至「FineBI 平台 > 目錄」下的一個或多個資源。使用者在存取對應目錄資源時，可透過頁面側邊欄快速發起 Agent 會話。
+3. **OrangeBI 平台**：支援將 Agent 發布至「OrangeBI 平台 > 目錄」下的一個或多個資源。使用者在存取對應目錄資源時，可透過頁面側邊欄快速發起 Agent 會話。
 
 > **注意**：
 > - 未發布的 Agent 處於「草稿」狀態，僅管理員可見與編輯。
-> - 在發布至 FineBI 平台的方式下，單個 Agent 可發布至多個目錄資源，但**單個目錄資源僅允許被一個 Agent 關聯發布**。
+> - 在發布至 OrangeBI 平台的方式下，單個 Agent 可發布至多個目錄資源，但**單個目錄資源僅允許被一個 Agent 關聯發布**。
 
 ### 2.5 取消發布
 

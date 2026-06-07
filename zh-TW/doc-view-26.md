@@ -7,10 +7,10 @@ sourced_from_kus:
 generated_at: "2026-06-03"
 ---
 <!-- RENDERED
-brand: native
-brand_display_name: FineReport
+brand: emon
+brand_display_name: Emon
 locale: zh-TW
-rendered_at: 2026-06-07T08:31:49Z
+rendered_at: 2026-06-07T09:25:29Z
 source_master: data/dora/locale/zh-TW/pages/doc-view-26.md
 -->
 
@@ -18,7 +18,7 @@ source_master: data/dora/locale/zh-TW/pages/doc-view-26.md
 
 Data Agent 支援連接符合 OpenAI/Azure 介面規範的本地大模型以及雲端大模型。
 
-**免責聲明：**帆軟 僅提供大模型的推薦參考及對接方式，不對大模型本身的問題承擔責任。
+**免責聲明：**Emon Corp 僅提供大模型的推薦參考及對接方式，不對大模型本身的問題承擔責任。
 
 ## 2. 模型要求
 

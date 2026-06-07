@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: ja-JP
-rendered_at: 2026-06-03T14:51:59Z
-source_master: data/dora/locale/ja-JP/pages/doc-view-21.md
--->
 ---
 page_id: doc-view-21
 title: AI 固定レポート
@@ -14,6 +7,13 @@ sourced_from_kus:
   - dora.skills.ai_fixed_report.setup
 generated_at: 2026-06-03T14:48:22Z
 ---
+<!-- RENDERED
+brand: emon
+brand_display_name: Emon
+locale: ja-JP
+rendered_at: 2026-06-07T09:25:29Z
+source_master: data/dora/locale/ja-JP/pages/doc-view-21.md
+-->
 
 # AI 固定レポート
 

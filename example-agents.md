@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: zh-TW
-rendered_at: 2026-06-04T07:24:15Z
-source_master: data/dora/locale/zh-TW/pages/example-agents.md
--->
 ---
 page_id: example-agents
 title: 內建 Agent 應用範例
@@ -19,6 +12,13 @@ sourced_from_kus:
   - finereport.agent.market_potential.usage
 generated_at: "2026-06-04T08:05:05+08:00"
 ---
+<!-- RENDERED
+brand: native
+brand_display_name: FineReport
+locale: zh-TW
+rendered_at: 2026-06-07T08:31:49Z
+source_master: data/dora/locale/zh-TW/pages/example-agents.md
+-->
 
 # 內建 Agent 應用範例
 

@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: zh-TW
-rendered_at: 2026-06-04T07:24:15Z
-source_master: data/dora/locale/zh-TW/pages/doc-view-33.md
--->
 ---
 page_id: doc-view-33
 title: "Dora 數據查詢與分析類技能對比"
@@ -14,6 +7,13 @@ sourced_from_kus:
   - dora.skills.query_analysis_setup
 generated_at: "2026-06-03T22:49:00+08:00"
 ---
+<!-- RENDERED
+brand: native
+brand_display_name: FineReport
+locale: zh-TW
+rendered_at: 2026-06-07T08:31:49Z
+source_master: data/dora/locale/zh-TW/pages/doc-view-33.md
+-->
 
 # Dora 數據查詢與分析類技能對比
 

@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: zh-TW
-rendered_at: 2026-06-04T07:24:15Z
-source_master: data/dora/locale/zh-TW/pages/doc-view-41.md
--->
 ---
 page_id: "doc-view-41"
 title: "報告生成類技能對比"
@@ -13,6 +6,13 @@ sourced_from_kus:
   - "dora.skill-orchestration.report-generation.comparison"
 generated_at: "2026-06-03"
 ---
+<!-- RENDERED
+brand: native
+brand_display_name: FineReport
+locale: zh-TW
+rendered_at: 2026-06-07T08:31:49Z
+source_master: data/dora/locale/zh-TW/pages/doc-view-41.md
+-->
 
 ## 1. 技能對比
 

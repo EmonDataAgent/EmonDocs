@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: zh-TW
-rendered_at: 2026-06-04T07:24:15Z
-source_master: data/dora/locale/zh-TW/pages/agent-management.md
--->
 ---
 page_id: agent-management
 title: "Agent 建立與模型配置"
@@ -23,6 +16,13 @@ sourced_from_kus:
   - dora.model.resource-config
 generated_at: "2026-06-04T08:05:05+08:00"
 ---
+<!-- RENDERED
+brand: native
+brand_display_name: FineReport
+locale: zh-TW
+rendered_at: 2026-06-07T08:31:49Z
+source_master: data/dora/locale/zh-TW/pages/agent-management.md
+-->
 
 ## 建立與封裝 Agent
 

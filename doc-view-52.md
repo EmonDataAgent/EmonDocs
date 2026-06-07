@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: zh-TW
-rendered_at: 2026-06-04T07:24:15Z
-source_master: data/dora/locale/zh-TW/pages/doc-view-52.md
--->
 ---
 page_id: doc-view-52
 title: "Dora 企業微信機器人應用對接"
@@ -13,6 +6,13 @@ sourced_from_kus:
   - dora.user-management.wecom-robot-integration
 generated_at: "2026-06-03T22:48:20+08:00"
 ---
+<!-- RENDERED
+brand: native
+brand_display_name: FineReport
+locale: zh-TW
+rendered_at: 2026-06-07T08:31:49Z
+source_master: data/dora/locale/zh-TW/pages/doc-view-52.md
+-->
 
 # Dora 企業微信機器人應用對接
 

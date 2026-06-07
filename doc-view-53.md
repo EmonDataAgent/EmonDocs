@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: zh-TW
-rendered_at: 2026-06-04T07:24:15Z
-source_master: data/dora/locale/zh-TW/pages/doc-view-53.md
--->
 ---
 page_id: doc-view-53
 title: "Dora 更新日誌索引"
@@ -13,6 +6,13 @@ sourced_from_kus:
   - dora.release_notes.index
 generated_at: "2026-06-03T22:02:48+08:00"
 ---
+<!-- RENDERED
+brand: native
+brand_display_name: FineReport
+locale: zh-TW
+rendered_at: 2026-06-07T08:31:49Z
+source_master: data/dora/locale/zh-TW/pages/doc-view-53.md
+-->
 
 Dora 平台首次對外發布。本平台具備企業級數據安全底座與 Agent 編排引擎能力，能實現不同業務場景下的數據分析、報告、預警與推送等全鏈路閉環。
 

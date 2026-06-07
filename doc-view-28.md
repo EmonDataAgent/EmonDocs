@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: zh-TW
-rendered_at: 2026-06-04T07:24:15Z
-source_master: data/dora/locale/zh-TW/pages/doc-view-28.md
--->
 ---
 page_id: doc-view-28
 title: "Dora 模型資源配置"
@@ -16,6 +9,13 @@ sourced_from_kus:
   - dora.models.configuration.pricing
 generated_at: "2026-06-03"
 ---
+<!-- RENDERED
+brand: native
+brand_display_name: FineReport
+locale: zh-TW
+rendered_at: 2026-06-07T08:31:49Z
+source_master: data/dora/locale/zh-TW/pages/doc-view-28.md
+-->
 
 # Dora 模型資源配置
 

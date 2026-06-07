@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: zh-TW
-rendered_at: 2026-06-04T07:24:15Z
-source_master: data/dora/locale/zh-TW/pages/system-administration.md
--->
 ---
 page_id: system-administration
 title: "系統設定與權限管理"
@@ -24,6 +17,13 @@ sourced_from_kus:
   - dora.admin.usage_overview
 generated_at: "2026-06-04T08:05:05+08:00"
 ---
+<!-- RENDERED
+brand: native
+brand_display_name: FineReport
+locale: zh-TW
+rendered_at: 2026-06-07T08:31:49Z
+source_master: data/dora/locale/zh-TW/pages/system-administration.md
+-->
 
 # 系統設定與權限管理
 

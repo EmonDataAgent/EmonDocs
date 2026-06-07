@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: zh-TW
-rendered_at: 2026-06-04T07:24:15Z
-source_master: data/dora/locale/zh-TW/pages/deployment-troubleshooting.md
--->
 ---
 page_id: deployment-troubleshooting
 title: "部署與疑難排解"
@@ -26,6 +19,13 @@ sourced_from_kus:
   - dora.llm.troubleshooting.insufficient_balance
 generated_at: "2026-06-04T08:05:05+08:00"
 ---
+<!-- RENDERED
+brand: native
+brand_display_name: FineReport
+locale: zh-TW
+rendered_at: 2026-06-07T08:31:49Z
+source_master: data/dora/locale/zh-TW/pages/deployment-troubleshooting.md
+-->
 
 ## Data Agent 部署指南
 

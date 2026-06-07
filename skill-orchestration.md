@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: zh-TW
-rendered_at: 2026-06-04T07:24:15Z
-source_master: data/dora/locale/zh-TW/pages/skill-orchestration.md
--->
 ---
 page_id: skill-orchestration
 title: "Dora 技能編排指南"
@@ -27,6 +20,13 @@ sourced_from_kus:
   - dora.skills.report-generation-comparison.procedure
 generated_at: "2026-06-04T15:21:01+08:00"
 ---
+<!-- RENDERED
+brand: native
+brand_display_name: FineReport
+locale: zh-TW
+rendered_at: 2026-06-07T08:31:49Z
+source_master: data/dora/locale/zh-TW/pages/skill-orchestration.md
+-->
 
 # Dora 技能編排指南
 

@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: zh-TW
-rendered_at: 2026-06-04T07:24:15Z
-source_master: data/dora/locale/zh-TW/pages/doc-view-34.md
--->
 ---
 page_id: doc-view-34
 title: 圖表視覺化
@@ -12,6 +5,13 @@ locale: zh-TW
 sourced_from_kus:
   - dora.skills.chart_visualization
 ---
+<!-- RENDERED
+brand: native
+brand_display_name: FineReport
+locale: zh-TW
+rendered_at: 2026-06-07T08:31:49Z
+source_master: data/dora/locale/zh-TW/pages/doc-view-34.md
+-->
 
 ## 1. 簡介
 

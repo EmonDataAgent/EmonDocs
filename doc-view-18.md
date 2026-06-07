@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: zh-TW
-rendered_at: 2026-06-04T07:24:15Z
-source_master: data/dora/locale/zh-TW/pages/doc-view-18.md
--->
 ---
 page_id: doc-view-18
 title: "首輪推薦問題"
@@ -13,6 +6,13 @@ sourced_from_kus:
   - dora.agent.conversation.first_round_recommended_questions
 generated_at: "2026-06-03T22:50:00+08:00"
 ---
+<!-- RENDERED
+brand: native
+brand_display_name: FineReport
+locale: zh-TW
+rendered_at: 2026-06-07T08:31:49Z
+source_master: data/dora/locale/zh-TW/pages/doc-view-18.md
+-->
 
 ## 1. 簡介
 

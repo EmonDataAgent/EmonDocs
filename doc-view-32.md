@@ -1,10 +1,3 @@
-<!-- RENDERED
-brand: native
-brand_display_name: FineReport
-locale: zh-TW
-rendered_at: 2026-06-04T07:24:15Z
-source_master: data/dora/locale/zh-TW/pages/doc-view-32.md
--->
 ---
 page_id: doc-view-32
 title: "FineReport 報表查詢技能"
@@ -14,6 +7,13 @@ sourced_from_kus:
   - dora.skills.fr_report_query.setup
 generated_at: 2026-06-03
 ---
+<!-- RENDERED
+brand: native
+brand_display_name: FineReport
+locale: zh-TW
+rendered_at: 2026-06-07T08:31:49Z
+source_master: data/dora/locale/zh-TW/pages/doc-view-32.md
+-->
 
 # FineReport 報表查詢技能
 
